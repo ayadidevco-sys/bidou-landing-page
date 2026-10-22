@@ -1,0 +1,15 @@
+{
+  "name": "bidou-landing-static",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bidou landing page — static site (Cloudflare Pages)",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "preview": "node scripts/serve-static.mjs",
+    "dev": "node scripts/build-static.mjs && node scripts/serve-static.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
