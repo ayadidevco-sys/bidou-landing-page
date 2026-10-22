@@ -1,0 +1,61 @@
+{
+  "colors": {
+    "surface": "#fff8f5",
+    "surface-dim": "#e4d8d1",
+    "surface-bright": "#fff8f5",
+    "surface-container-lowest": "#ffffff",
+    "surface-container-low": "#fef1ea",
+    "surface-container": "#f8ece5",
+    "surface-container-high": "#f2e6df",
+    "surface-container-highest": "#ece0da",
+    "on-surface": "#201a17",
+    "on-surface-variant": "#57423b",
+    "outline": "#8b7269",
+    "outline-variant": "#dec0b6",
+    "primary": "#a43d10",
+    "primary-container": "#f57848",
+    "on-primary": "#ffffff",
+    "on-primary-container": "#611d00",
+    "secondary": "#605c6d",
+    "secondary-container": "#e6dff4",
+    "on-secondary": "#ffffff",
+    "tertiary": "#5a6149",
+    "tertiary-container": "#98a084",
+    "on-tertiary": "#ffffff",
+    "error": "#ba1a1a",
+    "background": "#fff8f5",
+    "on-background": "#201a17",
+    "primary-fixed": "#ffdbcf",
+    "primary-fixed-dim": "#ffb59b",
+    "secondary-fixed": "#e6dff4",
+    "tertiary-fixed": "#dee6c7"
+  },
+  "fontFamily": {
+    "base": ["Plus Jakarta Sans", "sans-serif"]
+  },
+  "fontSize": {
+    "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+    "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+    "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+    "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+    "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+    "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "700" }],
+    "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+    "stat-numeric": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.03em", "fontWeight": "800" }]
+  },
+  "spacing": {
+    "space-xs": "0.25rem",
+    "space-sm": "0.5rem",
+    "space-md": "1rem",
+    "space-lg": "1.5rem",
+    "space-xl": "2rem",
+    "margin": "1.25rem",
+    "gutter": "1rem"
+  },
+  "borderRadius": {
+    "DEFAULT": "1rem",
+    "lg": "2rem",
+    "xl": "3rem",
+    "full": "9999px"
+  }
+}

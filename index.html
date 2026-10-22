@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html lang="fr" style=""><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Bidou — Companion</title><link rel="icon" type="image/png" href="images/img1.png"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link rel="preload" as="image" href="images/img1.png"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap&amp;font-display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="translations.js"></script><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}a:focus-visible,button:focus-visible{outline:2px solid #a43d10;outline-offset:3px;border-radius:0.5rem;}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important;}}@keyframes fadeInUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}@keyframes glowPulse{0%,100%{opacity:0.6;}50%{opacity:0.75;}}@keyframes float{0%,100%{transform:translateY(0px);}50%{transform:translateY(-8px);}}@keyframes scaleIn{from{opacity:0;transform:scale(0.92);}to{opacity:1;transform:scale(1);}}.hero-heading{animation:fadeInUp 700ms cubic-bezier(0.16,1,0.3,1) 100ms both;}.hero-copy{animation:fadeInUp 700ms cubic-bezier(0.16,1,0.3,1) 200ms both;}.hero-cta{animation:fadeInUp 700ms cubic-bezier(0.16,1,0.3,1) 300ms both;}.hero-mockup{animation:scaleIn 800ms cubic-bezier(0.16,1,0.3,1) 400ms both;}.hero-glow-1{animation:fadeIn 1200ms ease-out 200ms both,glowPulse 4s ease-in-out 1.2s 1 both;}.hero-glow-2{animation:fadeIn 1200ms ease-out 400ms both,glowPulse 4s ease-in-out 1.4s 1 both;}.hero-glow-3{animation:fadeIn 1200ms ease-out 600ms both,glowPulse 4s ease-in-out 1.6s 1 both;}.hero-badge{animation:fadeIn 600ms cubic-bezier(0.16,1,0.3,1) both;}.hero-badge-1{animation-delay:600ms;}.hero-badge-2{animation-delay:700ms;}.hero-badge-3{animation-delay:800ms;}.scroll-reveal{opacity:0;transform:translateY(20px);transition:opacity 600ms cubic-bezier(0.16,1,0.3,1),transform 600ms cubic-bezier(0.16,1,0.3,1);}.scroll-reveal.is-visible{opacity:1;transform:translateY(0);}@media(prefers-reduced-motion:reduce){.hero-heading,.hero-copy,.hero-cta,.hero-mockup,.hero-badge{animation:fadeIn 400ms ease-out both;}@keyframes glowPulse{0%,100%{opacity:0.6;}}@keyframes float{0%,100%{transform:translateY(0);}}.scroll-reveal{transform:translateY(0);}.scroll-reveal.is-visible{opacity:1;}}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-variant":"#ece0da","on-tertiary-fixed-variant":"#424a33","outline":"#8b7269","surface-container-high":"#f2e6df","outline-variant":"#dec0b6","surface-tint":"#a43d10","on-primary-fixed-variant":"#812900","tertiary-fixed":"#dee6c7","error-container":"#ffdad6","tertiary":"#5a6149","surface-bright":"#fff8f5","surface-container-highest":"#ece0da","on-primary-container":"#611d00","secondary-fixed":"#e6dff4","on-primary-fixed":"#380d00","surface-container-lowest":"#ffffff","inverse-on-surface":"#fbeee8","surface-container":"#f8ece5","surface":"#fff8f5","on-background":"#201a17","secondary-container":"#e6dff4","surface-container-low":"#fef1ea","primary-fixed":"#ffdbcf","on-error-container":"#93000a","on-secondary":"#ffffff","on-surface-variant":"#57423b","tertiary-container":"#98a084","on-secondary-fixed":"#1c1a28","primary-container":"#f57848","on-secondary-fixed-variant":"#484455","on-primary":"#ffffff","primary-fixed-dim":"#ffb59b","surface-dim":"#e4d8d1","secondary":"#605c6d","on-tertiary":"#ffffff","background":"#fff8f5","secondary-fixed-dim":"#cac3d8","inverse-surface":"#362f2b","inverse-primary":"#ffb59b","on-tertiary-container":"#303722","on-error":"#ffffff","on-tertiary-fixed":"#171e0b","tertiary-fixed-dim":"#c2caac","on-surface":"#201a17","error":"#ba1a1a","primary":"#a43d10","on-secondary-container":"#666273"},borderRadius:{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},spacing:{"space-xs":"0.25rem","space-xl":"2rem","gutter":"1rem","space-md":"1rem","margin":"1.25rem","space-sm":"0.5rem","space-lg":"1.5rem"},fontFamily:{"body-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"stat-numeric":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},fontSize:{"body-sm":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"700"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"display-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"800"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.015em",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"700"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"600"}],"stat-numeric":["28px",{lineHeight:"32px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"0.01em",fontWeight:"500"}],"headline-md":["22px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface"><a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-space-md focus:py-space-sm focus:rounded-full focus:bg-primary focus:text-on-primary focus:font-label-lg focus:text-label-lg focus:shadow-lg" data-i18n="a11y.skip">Passer au contenu principal</a><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(41,35,31,0.06)]"><div class="h-20 w-full px-margin md:px-space-xl max-w-7xl mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Official Google Play Store app icon (bidou-playstore-icon.png) for Bidou pet companion app. Exact 512x512 px dimensions, 32-bit PNG rendered format, opaque warm boutique cream background (#FFF8F5) with subtle concentric ambient rings, centered signature terracotta orange circular disc (#F57848) with depth elevation, tactile border highlight, and crisp ivory white puppy paw print featuring the brand's signature heart cutout and vitality sparkle." class="h-8 w-auto object-contain" src="images/img1.png"/><a class="flex items-baseline gap-space-xs" data-path="accueil" href="#"><span class="font-headline-md text-headline-md text-on-surface tracking-tight">Bidou</span><span class="hidden sm:inline-block font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Companion</span></a></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-secondary-container text-on-secondary-fixed-variant font-label-lg text-label-lg rounded-full px-space-md py-space-xs"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs rounded-full" data-path="fonctionnalites" href="#fonctionnalites" data-i18n="nav.features">Fonctionnalités</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs rounded-full" data-path="ecrans-app" href="#ecrans-app" data-i18n="nav.screens">Écrans</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs rounded-full" data-path="carnet-de-sante" href="#carnet-de-sante" data-i18n="nav.health">Carnet de santé</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs rounded-full" data-path="avis-utilisateurs" href="#avis-utilisateurs" data-i18n="nav.reviews">Avis</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs rounded-full" data-path="faq" href="#faq" data-i18n="nav.faq">FAQ</a></nav><div class="flex items-center gap-space-sm md:gap-space-md"><a class="inline-flex items-center justify-center h-[46px] px-space-md sm:px-space-lg rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm hover:opacity-95 active:scale-95 transition-all text-center whitespace-nowrap" data-path="telecharger" href="#telecharger"><span class="hidden sm:inline" data-i18n="hero.ctaPrefix">Télécharger sur </span> Google Play</a><div class="relative language-switcher"><button class="w-10 h-10 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center shrink-0 transition-colors" id="language-button" aria-label="Change language" data-i18n-aria="a11y.changeLanguage" aria-haspopup="true" aria-expanded="false"><span class="material-symbols-outlined text-on-surface text-[20px]">language</span></button><div class="hidden absolute top-12 right-0 bg-surface-container-lowest rounded-lg shadow-xl border border-outline-variant/30 py-2 min-w-[180px] z-50" id="language-menu" role="menu"><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="fr" role="menuitem"><img src="https://flagcdn.com/w40/fr.png" srcset="https://flagcdn.com/w80/fr.png 2x" width="20" height="15" alt="France flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">Français</span></button><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="en" role="menuitem"><img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="15" alt="UK flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">English</span></button><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="es" role="menuitem"><img src="https://flagcdn.com/w40/es.png" srcset="https://flagcdn.com/w80/es.png 2x" width="20" height="15" alt="Spain flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">Español</span></button><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="de" role="menuitem"><img src="https://flagcdn.com/w40/de.png" srcset="https://flagcdn.com/w80/de.png 2x" width="20" height="15" alt="Germany flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">Deutsch</span></button><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="it" role="menuitem"><img src="https://flagcdn.com/w40/it.png" srcset="https://flagcdn.com/w80/it.png 2x" width="20" height="15" alt="Italy flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">Italiano</span></button><button class="w-full px-4 py-2.5 text-left hover:bg-surface-container transition-colors flex items-center gap-3 language-option" data-lang="pt" role="menuitem"><img src="https://flagcdn.com/w40/pt.png" srcset="https://flagcdn.com/w80/pt.png 2x" width="20" height="15" alt="Portugal flag" class="rounded-sm"><span class="font-label-md text-label-md text-on-surface">Português</span></button></div></div></div></div></header><main id="main-content" class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden px-margin md:px-space-xl py-space-xl lg:py-32">
+<!-- Ambient Organic Background Glows — AMPLIFIED -->
+<div class="absolute -top-40 -left-32 w-[500px] h-[500px] rounded-full bg-primary-fixed/60 blur-3xl pointer-events-none hero-glow-1"></div>
+<div class="absolute top-1/2 -right-40 w-[420px] h-[420px] rounded-full bg-tertiary-fixed/75 blur-3xl pointer-events-none hero-glow-2"></div>
+<div class="absolute bottom-0 left-1/3 w-96 h-96 rounded-full bg-secondary-fixed/65 blur-3xl pointer-events-none hero-glow-3"></div>
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-space-xl relative z-10">
+<!-- Left Editorial Column -->
+<div class="flex-1 flex flex-col items-start gap-space-md text-left">
+<!-- Trust / Availability Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-lg py-2 rounded-full bg-primary-fixed/70 text-on-primary-fixed shadow-md border border-primary/20">
+<span class="material-symbols-outlined text-[20px] text-primary">arrow_back_ios_new</span>
+<span class="font-label-md text-label-md font-bold tracking-tight" data-i18n="hero.badge">Disponible dès maintenant sur Android &amp; Google Play</span>
+</div>
+<h1 class="font-display-lg text-[clamp(36px,5.5vw,56px)] leading-[1.1] text-on-surface font-extrabold tracking-tight hero-heading" data-i18n="hero.title">
+          Le compagnon complice et bienveillant pour élever votre chiot avec amour
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl hero-copy" data-i18n="hero.subtitle">
+          Apprentissage de la propreté sans stress, suivi des besoins en un geste, carnet de santé &amp; vaccins, rappels d’alimentation et conseils personnalisés. Tout ce dont votre compagnon a besoin au quotidien.
+        </p>
+<!-- CTA Action Group -->
+<div class="flex flex-col xs:flex-row flex-wrap items-stretch xs:items-center gap-space-sm sm:gap-space-md pt-space-md w-full sm:w-auto hero-cta">
+<!-- Google Play CTA Button -->
+<a class="group flex items-center justify-center gap-space-sm h-[60px] px-space-xl rounded-full bg-primary text-on-primary shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-200 active:scale-95" href="#telecharger">
+<svg class="w-7 h-7 shrink-0 fill-current" viewbox="0 0 24 24">
+<path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.914c-.167-.478-.256-1.01-.256-1.583V4.31c0-.573.089-1.105.256-1.583.153-.339.362-.647.61-.913zm11.3 11.3l2.453 2.453-11.83 6.83 9.377-9.283zm0-2.228L5.532 1.603l11.83 6.83-2.453 2.453zm1.127 1.114l3.193-1.844c1.026-.593 1.026-1.564 0-2.157l-3.193-1.844-2.229 2.228 2.229 2.617z"></path>
+</svg>
+<div class="flex flex-col text-left leading-none">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-primary/90" data-i18n="hero.available">Disponible sur Android 8.0+</span>
+<span class="font-label-lg text-label-lg font-bold" data-i18n="hero.ctaPrimary">Télécharger sur Google Play</span>
+</div>
+</a>
+<!-- Secondary Exploration CTA -->
+<a class="flex items-center justify-center gap-space-xs h-[54px] px-space-lg rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all duration-200 font-label-lg text-label-lg" href="#fonctionnalites">
+<span class="" data-i18n="hero.ctaSecondary">Découvrir les fonctionnalités</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+<!-- Social Proof Reassurance -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-on-surface font-headline-sm text-headline-sm">4.9 / 5</span>
+<span class="text-on-surface-variant" data-i18n="hero.rating">(120+ avis Google Play)</span>
+</div>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+<span class="" data-i18n="hero.free">100% Gratuit au lancement</span>
+</div>
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">lock</span>
+<span class="" data-i18n="hero.privacy">Respect de la vie privée</span>
+</div>
+</div>
+</div>
+<!-- Right Mockup & Dynamic Floating Pills Column -->
+<div class="flex-1 relative w-full flex justify-center items-center py-space-md overflow-hidden sm:overflow-visible">
+<!-- Ambient Radial Gradient Disc -->
+<div class="w-[min(90vw,380px)] sm:w-[460px] lg:w-[520px] aspect-square rounded-full bg-gradient-to-tr from-primary-fixed-dim/50 via-surface-container to-tertiary-fixed/60 absolute -z-0"></div>
+<!-- Central Mockup Image Frame -->
+<div class="relative z-10 w-[min(76vw,300px)] sm:w-[360px] rounded-xl shadow-2xl overflow-hidden bg-surface-container-lowest p-2.5 hero-mockup">
+<img alt="Bidou app dashboard screen" class="w-full h-auto rounded-lg object-cover shadow-sm" src="images/img2.png" loading="lazy"/>
+</div>
+<!-- Floating Badge 1: Propreté & Temps -->
+<div class="absolute -top-3 left-2 sm:left-4 z-20 bg-surface-container-lowest/95 backdrop-blur-md px-space-lg py-space-sm rounded-full shadow-lg flex items-center gap-space-sm hero-badge hero-badge-1" style="max-width: calc(50vw);">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shrink-0 shadow-md">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-bold text-on-surface truncate" data-i18n="cta.badge1Title">Sortie conseillée</span>
+<span class="font-body-sm text-[12px] text-tertiary truncate" data-i18n="cta.badge1Sub">dans 45 minutes</span>
+</div>
+</div>
+<!-- Floating Badge 2: Médical / DHPP -->
+<div class="absolute bottom-12 left-2 sm:left-2 z-20 bg-surface-container-lowest/95 backdrop-blur-md px-space-lg py-space-sm rounded-full shadow-lg flex items-center gap-space-sm hero-badge hero-badge-2" style="max-width: calc(50vw);">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0 shadow-md">
+<span class="material-symbols-outlined text-[20px]">medical_services</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-bold text-on-surface truncate" data-i18n="cta.badge2Title">Rappel vaccin</span>
+<span class="font-body-sm text-[12px] text-secondary truncate" data-i18n="cta.badge2Sub">Rappel DHPP le 12 mai</span>
+</div>
+</div>
+<!-- Floating Badge 3: Streak / Réussite -->
+<div class="absolute top-1/3 right-0 sm:-right-4 z-20 bg-surface-container-lowest/95 backdrop-blur-md px-space-lg py-space-sm rounded-full shadow-lg flex items-center gap-space-sm hero-badge hero-badge-3" style="max-width: calc(50vw);">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0 shadow-md">
+<span class="material-symbols-outlined text-[20px]">workspace_premium</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-bold text-on-surface truncate" data-i18n="cta.badge3Title">Bravo Bidou !</span>
+<span class="font-body-sm text-[12px] text-primary font-bold truncate" data-i18n="cta.badge3Sub">3 jours sans accident</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANDEAU DE STATISTIQUES & IMPACT -->
+<section class="w-full px-margin md:px-space-xl py-space-lg bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md scroll-reveal">
+<!-- Stat 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col gap-space-xs items-center text-center">
+<span class="font-stat-numeric text-stat-numeric text-primary">88.5%</span>
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="stats.success">Réussite propreté</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="stats.successDesc">Constatée dès les 3 premières semaines de suivi régulier</p>
+</div>
+<!-- Stat 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col gap-space-xs items-center text-center">
+<span class="font-stat-numeric text-stat-numeric text-tertiary">16</span>
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="stats.screens">Écrans spécialisés</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="stats.screensDesc">Conçus en collaboration avec des vétérinaires &amp; éducateurs</p>
+</div>
+<!-- Stat 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col gap-space-xs items-center text-center">
+<div class="flex items-center gap-1 text-primary">
+<span class="font-stat-numeric text-stat-numeric">4.9</span>
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="stats.rating">Note utilisateurs</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="stats.ratingDesc">Plébiscité pour sa clarté, sa douceur et sa réactivité</p>
+</div>
+<!-- Stat 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col gap-space-xs items-center text-center">
+<span class="font-stat-numeric text-stat-numeric text-secondary">100%</span>
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="stats.approach">Éducation bienveillante</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="stats.approachDesc">Approche basée sur le renforcement positif, zéro stress</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION FONCTIONNALITÉS PHARES -->
+<section class="w-full px-margin md:px-space-xl py-space-xl lg:py-24" id="fonctionnalites">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto gap-space-xs scroll-reveal">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold" data-i18n="sections.dailySimplified">Un quotidien simplifié</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface" data-i18n="features.title">
+          Tout le nécessaire pour comprendre et accompagner votre chiot
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="features.subtitle">
+          Des fonctionnalités concrètes créées pour soulager la charge mentale des nouveaux maîtres sans complexité inutile.
+        </p>
+</div>
+<!-- Bento Grid of Key Features -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg scroll-reveal">
+<!-- Feature 1: Predictive Potty -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[28px]">water_drop</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="features.potty">Suivi de la propreté prédictif</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="cta.feature1Desc">
+              Notre algorithme doux analyse la fréquence des repas, des siestes et des boissons pour vous alerter au meilleur moment avant les petits accidents. Fini le stress des oublis dans le salon.
+            </p>
+</div>
+<!-- Feature Visual Snippet: Routine Bar -->
+<div class="bg-surface-container-low p-space-md rounded-DEFAULT flex flex-col gap-space-xs">
+<div class="flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant">
+<span class="" data-i18n="cta.feature1Label">Rythme de digestion moyen</span>
+<span class="font-bold text-on-surface">3h 45min</span>
+</div>
+<div class="w-full bg-surface-container-highest h-3 rounded-full overflow-hidden flex">
+<div class="bg-tertiary-container h-full w-[70%] rounded-l-full"></div>
+<div class="bg-primary-container h-full w-[30%] rounded-r-full"></div>
+</div>
+<span class="font-body-sm text-[11px] text-tertiary font-medium" data-i18n="cta.feature1Action">✨ Idéal : Prochaine petite sortie conseillée dans 25 min</span>
+</div>
+</div>
+<!-- Feature 2: Health Log & Vet -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[28px]">health_and_safety</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="features.health">Carnet de santé &amp; rappels vétérinaires</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="cta.feature2Desc">
+              Tous ses rendez-vous, vermifuges, traitements antiparasitaires et vaccins (DHPP, Rage, Toux du chenil) consignés au même endroit avec rappels automatiques et géolocalisation des cliniques d'urgence 24/7.
+            </p>
+</div>
+<!-- Feature Visual Snippet: Vaccine Tags -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="bg-surface-container p-space-sm rounded-DEFAULT flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[20px]">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface" data-i18n="cta.feature2Tag1">Primo DHPP</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="cta.feature2Tag1Sub">Validé à 8 sem.</span>
+</div>
+</div>
+<div class="bg-surface-container p-space-sm rounded-DEFAULT flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">event_repeat</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface" data-i18n="cta.feature2Tag2">Rappel 12 sem.</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold" data-i18n="cta.feature2Tag2Sub">Dans 14 jours</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Feature 3: Nutrition & Care -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[28px]">restaurant</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="features.nutrition">Alimentation, hydratation &amp; soins</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="cta.feature3Desc">
+              Ajustez les portions de croquettes selon la courbe de croissance de sa race, fractionnez ses repas en 3 ou 2 prises et suivez son abreuvement journalier pour éviter la déshydratation pendant les fortes chaleurs.
+            </p>
+</div>
+<!-- Feature Visual Snippet: Feeding Timeline -->
+<div class="flex items-center justify-between bg-surface-container-low px-space-md py-space-sm rounded-DEFAULT">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">soup_kitchen</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface" data-i18n="cta.feature3Label">Ration : 3 x 80g</span>
+</div>
+<span class="bg-surface-container-lowest px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-surface" data-i18n="cta.feature3Status">Matin ✓ Midi ✓ Soir ○</span>
+</div>
+</div>
+<!-- Feature 4: Statistics & Positive Milestones -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[28px]">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="features.stats">Statistiques &amp; valorisation des progrès</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="cta.feature4Desc">
+              Fêtez chaque victoire ! Visualisez la baisse spectaculaire des accidents intérieurs, observez la stabilité des horaires et recevez des conseils bienveillants adaptés à son âge pour encourager ses apprentissages.
+            </p>
+</div>
+<!-- Feature Visual Snippet: Inline Spark Progress -->
+<div class="bg-surface-container-low p-space-sm rounded-DEFAULT flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-stat-numeric text-headline-md text-primary font-bold">85%</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant" data-i18n="cta.feature4Label">propreté constatée cette semaine</span>
+</div>
+<span class="material-symbols-outlined text-tertiary text-[24px]">emoji_events</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CARROUSEL / VITRINE D'ÉCRANS INTERACTIVE -->
+<section class="w-full px-margin md:px-space-xl py-space-xl bg-surface-container-high/50" id="ecrans-app">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl items-center text-center">
+<div class="flex flex-col gap-space-xs max-w-2xl scroll-reveal">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold" data-i18n="sections.userExperience">Expérience utilisateur fluide</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface" data-i18n="screens.title">
+          Une interface épurée, tactile et rapide en balade
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="screens.subtitle">
+          Chaque écran a été dessiné pour une saisie à une main, avec des touches larges et un contraste parfait en plein soleil.
+        </p>
+</div>
+<!-- App Screens Showcase Display -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg w-full">
+<!-- Screen 1: Dashboard -->
+<div class="flex flex-col items-center gap-space-md group">
+<div class="w-full max-w-[min(80vw,270px)] sm:max-w-[270px] bg-surface-container-lowest p-2 rounded-xl shadow-md group-hover:-translate-y-2 transition-transform duration-300">
+<img alt="Capture écran tableau de bord quotidien Bidou" data-i18n-alt="alt.dashboard" class="w-full h-auto rounded-lg object-cover" src="images/img2.png" loading="lazy"/>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="screens.dashboard">1. Tableau de bord</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="screens.dashboardDesc">Vue d’ensemble des routines du jour</span>
+</div>
+</div>
+<!-- Screen 2: Quick Potty Log Placeholder -->
+<div class="flex flex-col items-center gap-space-md group">
+<div class="w-full max-w-[min(80vw,270px)] sm:max-w-[270px] bg-surface-container-lowest p-2 rounded-xl shadow-md group-hover:-translate-y-2 transition-transform duration-300">
+<div class="w-full aspect-[9/16] bg-surface-container rounded-lg p-space-md flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface" data-i18n="screens.screen1Title">Qu'a fait Bidou ?</span>
+<span class="material-symbols-outlined text-primary text-[20px]">pets</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm my-auto">
+<div class="bg-primary-fixed/80 p-space-md rounded-DEFAULT flex flex-col items-center gap-1 text-center shadow-sm">
+<span class="material-symbols-outlined text-on-primary-fixed text-[32px]">water_drop</span>
+<span class="font-label-md text-label-md font-bold text-on-primary-fixed" data-i18n="mockup.pipi">Pipi</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-DEFAULT flex flex-col items-center gap-1 text-center shadow-sm">
+<span class="material-symbols-outlined text-on-surface-variant text-[32px]">eco</span>
+<span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="mockup.caca">Caca</span>
+</div>
+</div>
+<div class="w-full py-2.5 rounded-full bg-primary text-on-primary text-center font-label-md text-label-md" data-i18n="mockup.saveClick">
+                Enregistrer en 1 clic
+              </div>
+</div>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="screens.quickRecord">2. Enregistrement rapide</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="screens.quickRecordDesc">Besoin dehors ou dedans en un tap</span>
+</div>
+</div>
+<!-- Screen 3: History & Timeline -->
+<div class="flex flex-col items-center gap-space-md group"><div class="w-full max-w-[min(80vw,270px)] sm:max-w-[270px] bg-surface-container-lowest p-2 rounded-xl shadow-md group-hover:-translate-y-2 transition-transform duration-300"><div class="w-full aspect-[9/16] bg-surface-container rounded-lg p-space-md flex flex-col justify-between"><div class="flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-headline-sm text-headline-sm text-on-surface" data-i18n="mockup.historyTab">Historique</span><span class="px-2 py-0.5 rounded-full bg-primary-fixed/60 text-on-primary-fixed text-[9px] font-bold uppercase tracking-wider">AdMob Native</span></div><div class="flex gap-1 overflow-hidden py-1"><span class="px-2 py-1 rounded-full bg-primary-container text-on-primary text-[10px] font-bold" data-i18n="mockup.tabAll">Tout</span><span class="px-2 py-1 rounded-full bg-surface-container-lowest text-on-surface text-[10px]" data-i18n="mockup.tabWalks">Balades</span><span class="px-2 py-1 rounded-full bg-surface-container-lowest text-on-surface text-[10px]" data-i18n="mockup.tabMeals">Repas</span></div><div class="flex flex-col gap-space-xs"><div class="bg-surface-container-lowest p-2 rounded-DEFAULT shadow-xs flex items-center justify-between text-left"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-[18px]">nature</span><div><p class="font-label-sm text-[11px] font-bold text-on-surface" data-i18n="mockup.walkTitle">Balade parc</p><p class="font-body-sm text-[9px] text-on-surface-variant" data-i18n="mockup.walkMeta">30 min · Réussi dehors</p></div></div><span class="font-body-sm text-[10px] text-on-surface-variant">08:30</span></div><div class="bg-surface-container-lowest p-2 rounded-DEFAULT shadow-xs flex items-center justify-between text-left"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">restaurant</span><div><p class="font-label-sm text-[11px] font-bold text-on-surface" data-i18n="mockup.mealTitle">Croquettes chiot</p><p class="font-body-sm text-[9px] text-on-surface-variant" data-i18n="mockup.mealMeta">80 grammes</p></div></div><span class="font-body-sm text-[10px] text-on-surface-variant">09:15</span></div></div></div><div class="bg-surface-container-lowest p-2 rounded-DEFAULT border border-outline-variant/30 shadow-xs flex flex-col gap-1"><div class="flex items-center justify-between"><span class="text-[8px] uppercase tracking-wider text-secondary font-bold" data-i18n="mockup.sponsored">Sponsorisé · Google AdMob</span><span class="material-symbols-outlined text-[12px] text-secondary">info</span></div><div class="flex items-center gap-2"><div class="w-8 h-8 rounded bg-primary-fixed/40 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-primary text-[16px]">pets</span></div><div class="flex-1 text-left"><p class="font-label-sm text-[10px] font-bold text-on-surface leading-tight">Ultra Croquettes Bio</p><p class="font-body-sm text-[8px] text-on-surface-variant leading-tight" data-i18n="mockup.adSub">Spécial croissance chiot</p></div></div></div></div></div><div class="flex flex-col items-center"><span class="font-label-lg text-label-lg text-on-surface" data-i18n="screens.history">3. Historique &amp; Bannière douce</span><span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="screens.historyDesc">Format adaptatif AdMob 100% canin</span></div></div>
+<!-- Screen 4: Vet & Health -->
+<div class="flex flex-col items-center gap-space-md group">
+<div class="w-full max-w-[min(80vw,270px)] sm:max-w-[270px] bg-surface-container-lowest p-2 rounded-xl shadow-md group-hover:-translate-y-2 transition-transform duration-300">
+<div class="w-full aspect-[9/16] bg-surface-container rounded-lg p-space-md flex flex-col justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface" data-i18n="mockup.healthCard">Santé &amp; Poids</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="mockup.growthCurve">Courbe de croissance</span>
+</div>
+<div class="h-28 w-full bg-surface-container-lowest rounded-DEFAULT p-2 flex items-end gap-1.5 justify-between">
+<div class="w-3 bg-tertiary-fixed rounded-t h-[30%]"></div>
+<div class="w-3 bg-tertiary-fixed rounded-t h-[45%]"></div>
+<div class="w-3 bg-tertiary-fixed rounded-t h-[60%]"></div>
+<div class="w-3 bg-tertiary-container rounded-t h-[75%]"></div>
+<div class="w-3 bg-primary-container rounded-t h-[90%]"></div>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-DEFAULT flex items-center justify-between text-left">
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface" data-i18n="mockup.currentWeight">Poids actuel</p>
+<p class="font-body-sm text-[11px] text-tertiary font-bold">6.8 kg (+400g)</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[22px]">pets</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-label-lg text-label-lg text-on-surface" data-i18n="screens.health">4. Santé vétérinaire</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="screens.healthDesc">Poids, vaccins et rappels</span>
+</div>
+</div>
+</div>
+<div class="w-full max-w-4xl bg-surface-container-lowest p-space-md md:p-space-lg rounded-xl border border-outline-variant/40 shadow-sm flex flex-col sm:flex-row items-center gap-space-md text-left"><div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0"><span class="material-symbols-outlined text-[26px]">ad_units</span></div><div class="flex-1"><div class="flex items-center gap-space-xs flex-wrap"><span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="admob.title">Monétisation douce Google AdMob</span><span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-bold" data-i18n="admob.subtitle">Bannières adaptatives</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-1" data-i18n="admob.description">Bannières adaptatives respectueuses du flux et 100% dédiées à l'univers canin (soins vétérinaires certifiés, nutrition de qualité). Zéro pop-up intrusif, zéro vidéo forcée, avec respect strict du RGPD et des données familiales.</p></div></div></div>
+</section>
+<!-- SECTION AVIS & TÉMOIGNAGES -->
+<section class="w-full px-margin md:px-space-xl py-space-xl lg:py-24" id="avis-utilisateurs">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center max-w-xl mx-auto gap-space-xs scroll-reveal">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold" data-i18n="sections.adoptedByFamilies">Adopté par les familles</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface" data-i18n="testimonials.title">
+          Ce que les parents de chiots en disent
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="testimonials.subtitle">
+          Des retours authentiques de propriétaires qui ont transformé les premières semaines avec leur compagnon.
+        </p>
+</div>
+<!-- Testimonial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg scroll-reveal">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between gap-space-md min-w-0">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic" data-i18n="testimonial1.text">
+              « Bidou a sauvé notre parquet ! Dès qu'on a suivi le rythme des sorties suggéré, notre petit golden a compris où faire ses besoins. En deux semaines, quasiment plus aucun oubli à l'intérieur. »
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-on-primary-fixed">
+              CL
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="testimonial1.name">Claire &amp; Milo</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="testimonial1.dog">Golden Retriever de 4 mois</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between gap-space-md min-w-0">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic" data-i18n="testimonial2.text">
+              « L'interface est apaisante et sans publicité agaçante. Pour noter les vaccins et vérifier l'évolution du poids avant le véto, c'est l'application la plus soignée du Play Store. »
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed">
+              TB
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="testimonial2.name">Thibault &amp; Olympe</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="testimonial2.dog">Berger Australien de 6 mois</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between gap-space-md min-w-0">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic" data-i18n="testimonial3.text">
+              « Enregistrement en un éclair d'une main pendant que je tiens la laisse de l'autre. Les conseils d'éducation sont d'une rare bienveillance. Un vrai plaisir au quotidien. »
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-on-tertiary-fixed">
+              SM
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="testimonial3.name">Sarah &amp; Gustave</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="testimonial3.dog">Bouledogue Français de 3 mois</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION FAQ (ACCORDÉON INTERACTIF) -->
+<section class="w-full px-margin md:px-space-xl py-space-xl bg-surface-container-low" id="faq">
+<div class="max-w-4xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col items-center text-center gap-space-xs scroll-reveal">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold" data-i18n="sections.faqTitle">Questions Fréquentes</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface" data-i18n="sections.faqSubtitle">
+          Tout savoir sur l'application Bidou
+        </h2>
+</div>
+<div class="flex flex-col gap-space-sm mt-space-md scroll-reveal" id="faq-accordion">
+<!-- FAQ 1 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="faq-toggle w-full px-space-lg py-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-on-surface gap-space-sm hover:bg-surface-container-low/50 transition-colors" type="button">
+<span class="" data-i18n="faq.q1">L’application Bidou est-elle compatible avec mon téléphone Android ?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-on-surface-variant font-body-md text-body-md" data-i18n="faq.a1">
+            Oui, parfaitement ! Bidou fonctionne sur tous les smartphones équipés d'Android 8.0 (Oreo) ou version supérieure. L'application tire pleinement parti des dernières nouveautés de conception Material You sous Android 14 et Android 15 pour une navigation fluide et un affichage adaptatif.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="faq-toggle w-full px-space-lg py-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-on-surface gap-space-sm hover:bg-surface-container-low/50 transition-colors" type="button">
+<span class="" data-i18n="faq.q2">Est-ce adapté à toutes les races de chiens et à quel âge commencer ?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-on-surface-variant font-body-md text-body-md hidden" data-i18n="faq.a2">
+            Absolument. Lors de la création du profil, vous choisissez la race ou le type croisé de votre compagnon. Les courbes de poids, le rythme digestif et les conseils de socialisation s'ajustent sur-mesure, que vous ayez un Chihuahua de 2 mois ou un chiot Terre-Neuve. Vous pouvez commencer dès son premier jour d'arrivée à la maison !
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="faq-toggle w-full px-space-lg py-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-on-surface gap-space-sm hover:bg-surface-container-low/50 transition-colors" type="button">
+<span class="" data-i18n="faq.q3">Mes données et le carnet de santé de mon chien sont-ils protégés ?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-on-surface-variant font-body-md text-body-md hidden" data-i18n="faq.a3">
+            Nous appliquons une politique de confidentialité stricte. Vos notes, photos de vaccins et historiques d'apprentissage restent chiffrés et sous votre contrôle absolu. Nous ne vendons aucune donnée comportementale ni personnelle à des tiers ou courtiers publicitaires.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="faq-toggle w-full px-space-lg py-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-on-surface gap-space-sm hover:bg-surface-container-low/50 transition-colors" type="button">
+<span class="" data-i18n="faq.q4">L’application est-elle gratuite ? Y a-t-il des frais cachés ?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-on-surface-variant font-body-md text-body-md hidden" data-i18n="faq.a4">Bidou est 100% gratuit au téléchargement sur Google Play, sans aucun abonnement payant ni fonctionnalités de base verrouillées. Cette gratuité est rendue possible grâce à une monétisation douce via des bannières adaptatives Google AdMob soigneusement intégrées. Nous sélectionnons rigoureusement des partenaires et sponsors de l'univers canin (nutrition saine, accessoires éco-responsables, mutuelles certifiées), sans aucune publicité trompeuse, sans pop-up intempestif et dans le strict respect de la vie privée (conformité RGPD &amp; COPPA).</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANNIÈRE DE CONVERSION FINALE (CTA) -->
+<section class="w-full px-margin md:px-space-xl py-space-xl lg:py-24" id="telecharger">
+<div class="max-w-7xl mx-auto">
+<div class="w-full bg-gradient-to-br from-primary-container via-primary to-on-primary-fixed-variant rounded-xl p-space-xl lg:p-20 text-on-primary relative overflow-hidden shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl scroll-reveal">
+<!-- Background Ambient Shapes -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary-fixed-dim/20 blur-2xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-tertiary-fixed/15 blur-2xl pointer-events-none"></div>
+<!-- Text Content -->
+<div class="flex-1 flex flex-col items-start gap-space-md z-10 text-left min-w-0">
+<!-- App Icon Presence -->
+<div class="w-20 h-20 rounded-lg overflow-hidden shadow-lg bg-surface p-1 shrink-0">
+<img alt="Icône officielle Bidou Companion" data-i18n-alt="alt.logo" class="w-full h-full object-contain rounded-DEFAULT" src="images/img1.png" loading="lazy"/>
+</div>
+<h2 class="font-display-lg text-[clamp(26px,4vw,44px)] leading-[1.15] font-extrabold text-on-primary tracking-tight" data-i18n="cta.title">
+            Prêt à vivre la plus belle aventure avec votre chiot ?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary/90 max-w-xl" data-i18n="cta.subtitle">
+            Téléchargez Bidou gratuitement dès aujourd’hui sur Google Play Store et transformez son apprentissage en une routine complice et joyeuse.
+          </p>
+<!-- Store Buttons & Badge -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="flex items-center gap-space-sm h-[56px] px-space-lg rounded-full bg-surface-container-lowest text-on-surface shadow-md hover:bg-surface transition-all duration-200 active:scale-95" href="#">
+<svg class="w-6 h-6 shrink-0 fill-current text-primary" viewbox="0 0 24 24">
+<path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.914c-.167-.478-.256-1.01-.256-1.583V4.31c0-.573.089-1.105.256-1.583.153-.339.362-.647.61-.913zm11.3 11.3l2.453 2.453-11.83 6.83 9.377-9.283zm0-2.228L5.532 1.603l11.83 6.83-2.453 2.453zm1.127 1.114l3.193-1.844c1.026-.593 1.026-1.564 0-2.157l-3.193-1.844-2.229 2.228 2.229 2.617z"></path>
+</svg>
+<div class="flex flex-col text-left leading-none">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-medium" data-i18n="cta.download">Téléchargement immédiat</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Google Play</span>
+</div>
+</a>
+<div class="flex items-center gap-space-xs text-on-primary/80 font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px]">android</span>
+<span class="" data-i18n="cta.compatible">Compatible Android 8.0 et supérieur</span>
+</div>
+</div>
+</div>
+<!-- Quick Mobile QR Code Card -->
+<div class="z-10 bg-surface-container-lowest p-space-lg rounded-lg shadow-xl flex flex-col items-center gap-space-sm text-center shrink-0 w-full sm:w-64 lg:w-64">
+<!-- Stylized Inline SVG QR Code Simulation -->
+<div class="w-36 h-36 bg-surface-container p-2 rounded-DEFAULT flex items-center justify-center">
+<svg class="w-full h-full text-on-surface" fill="currentColor" viewbox="0 0 100 100">
+<rect fill="currentColor" height="24" rx="4" width="24" x="10" y="10"></rect>
+<rect fill="#fff" height="16" rx="2" width="16" x="14" y="14"></rect>
+<rect fill="currentColor" height="8" width="8" x="18" y="18"></rect>
+<rect fill="currentColor" height="24" rx="4" width="24" x="66" y="10"></rect>
+<rect fill="#fff" height="16" rx="2" width="16" x="70" y="14"></rect>
+<rect fill="currentColor" height="8" width="8" x="74" y="18"></rect>
+<rect fill="currentColor" height="24" rx="4" width="24" x="10" y="66"></rect>
+<rect fill="#fff" height="16" rx="2" width="16" x="14" y="70"></rect>
+<rect fill="currentColor" height="8" width="8" x="18" y="74"></rect>
+<!-- Central Paw Accent -->
+<circle cx="50" cy="50" fill="#f57848" r="4"></circle>
+<circle cx="44" cy="44" fill="#f57848" r="2"></circle>
+<circle cx="56" cy="44" fill="#f57848" r="2"></circle>
+<!-- Data Pixels -->
+<rect height="5" width="5" x="42" y="16"></rect>
+<rect height="6" width="6" x="52" y="12"></rect>
+<rect height="6" width="6" x="42" y="74"></rect>
+<rect height="6" width="6" x="54" y="80"></rect>
+<rect height="6" width="8" x="70" y="52"></rect>
+<rect height="8" width="6" x="80" y="66"></rect>
+<rect height="6" width="8" x="66" y="80"></rect>
+</svg>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface" data-i18n="cta.qrTitle">Scanner pour installer</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant" data-i18n="cta.qrSubtitle">Accès direct au Play Store</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple interactive accordion logic for the FAQ
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggles = document.querySelectorAll('.faq-toggle');
+    toggles.forEach(toggle => {
+      toggle.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+        const icon = this.querySelector('.material-symbols-outlined');
+        const isHidden = content.classList.contains('hidden');
+
+        // Optional: close siblings
+        document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+        document.querySelectorAll('.faq-toggle .material-symbols-outlined').forEach(i => i.style.transform = 'rotate(0deg)');
+
+        if (isHidden) {
+          content.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+        } else {
+          content.classList.add('hidden');
+          icon.style.transform = 'rotate(0deg)';
+        }
+      });
+    });
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#' || href === '') return;
+
+        e.preventDefault();
+        const targetId = href.substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Language switcher functionality
+    const languageButton = document.getElementById('language-button');
+    const languageMenu = document.getElementById('language-menu');
+    const languageOptions = document.querySelectorAll('.language-option');
+
+    // Applies every element marked with data-i18n / data-i18n-alt / data-i18n-aria
+    function applyTranslations(lang) {
+      if (!translations[lang]) return;
+      const lookup = (path) => path.split('.').reduce((o, k) => (o == null ? o : o[k]), translations[lang]);
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const value = lookup(el.getAttribute('data-i18n'));
+        if (typeof value === 'string') el.textContent = value;
+      });
+      document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+        const value = lookup(el.getAttribute('data-i18n-alt'));
+        if (typeof value === 'string') el.alt = value;
+      });
+      document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+        const value = lookup(el.getAttribute('data-i18n-aria'));
+        if (typeof value === 'string') el.setAttribute('aria-label', value);
+      });
+      localStorage.setItem('preferredLanguage', lang);
+    }
+
+    if (languageButton && languageMenu) {
+      // Restore the previously chosen language on load (French is the default)
+      applyTranslations(localStorage.getItem('preferredLanguage') || 'fr');
+
+      // Toggle language menu
+      languageButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isHidden = languageMenu.classList.contains('hidden');
+        languageMenu.classList.toggle('hidden');
+        languageButton.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!languageMenu.classList.contains('hidden') &&
+            !languageMenu.contains(e.target) &&
+            e.target !== languageButton) {
+          languageMenu.classList.add('hidden');
+          languageButton.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Handle language selection
+      languageOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          applyTranslations(this.getAttribute('data-lang'));
+          languageMenu.classList.add('hidden');
+          languageButton.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // Scroll reveal animation
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => {
+      revealObserver.observe(el);
+    });
+  });
+</script></main><footer class="w-full bg-surface-container py-space-xl mt-space-xl shadow-[0_1px_8px_rgba(41,35,31,0.04)]" style="padding-bottom: max(2rem, env(safe-area-inset-bottom))"><div class="w-full px-margin md:px-space-xl max-w-7xl mx-auto flex flex-col gap-space-lg"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-headline-sm text-headline-sm">B</div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface">Bidou</span><span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="footer.tagline">Le carnet de vie &amp; santé bienveillant de votre chiot</span></div></div><div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-lg"><span class="material-symbols-outlined text-primary text-[24px]">pets</span><span class="font-label-md text-label-md text-on-surface" data-i18n="footer.designed">Conçu pour le bien-être canin</span></div></div><div class="flex flex-wrap items-center justify-between gap-space-md pt-space-md"><div class="flex flex-wrap items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="mentions-legales" href="#" data-i18n="footer.legal">Mentions Légales</a><a class="hover:text-on-surface transition-colors" data-path="confidentialite" href="#" data-i18n="footer.privacy">Politique de Confidentialité</a><a class="hover:text-on-surface transition-colors" data-path="contact" href="#" data-i18n="footer.contact">Contact</a><a class="hover:text-on-surface transition-colors inline-flex items-center gap-1 text-primary" href="#"><span class="material-symbols-outlined text-[14px]">campaign</span><span data-i18n="footer.partners">Partenaires &amp; Annonceurs AdMob</span></a></div><p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="footer.copyright">© 2025 Bidou Companion App. Tous droits réservés.</p></div></div></footer>
+</body></html>
