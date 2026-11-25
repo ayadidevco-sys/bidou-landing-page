@@ -1,0 +1,17 @@
+{
+  "name": "Trotkin: Dog Care & Health Log",
+  "short_name": "Trotkin",
+  "description": "Track puppy potty, walks, meals, water & vaccines together with your family.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8f5",
+  "theme_color": "#f57848",
+  "icons": [
+    {
+      "src": "/images/img1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

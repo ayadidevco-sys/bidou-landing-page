@@ -1,0 +1,18 @@
+# Trotkin Companion — robots.txt for Google Search Console & Google AdMob
+User-agent: *
+Allow: /
+Allow: /app-ads.txt
+Allow: /sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+Allow: /app-ads.txt
+
+User-agent: AdsBot-Google
+Allow: /
+Allow: /app-ads.txt
+
+Sitemap: https://trotkin.app/sitemap.xml

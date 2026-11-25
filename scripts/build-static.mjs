@@ -12,7 +12,11 @@ const entries = [
   'terms.html',
   'contact.html',
   'app-ads.txt',
+  'robots.txt',
+  'sitemap.xml',
+  'site.webmanifest',
   '_redirects',
+  '_headers',
   'translations.js',
   'images',
 ];
