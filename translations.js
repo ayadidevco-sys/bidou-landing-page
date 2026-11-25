@@ -1014,7 +1014,7 @@ const translations = {
         s4Sub: "Accès, rectification, portabilité et effacement définitif",
         s4Body: "Conformément au RGPD et aux règles Google Play, vous disposez d'un droit d'accès, de rectification, d'exportation et de suppression définitive de votre compte et de toutes les données associées, directement depuis l'application ou via notre portail web dédié.",
         deleteCta: "Demander la suppression de mon compte ou de mes données",
-        contactDpoCta: "Contacter le DPO (dpo@trotkin.app)",
+        contactDpoCta: "Contacter le DPO (dpo@trotkin.com)",
         s5Title: "5. Délégué à la Protection des Données (DPO)",
         s5Body: "Pour toute question relative à la confidentialité ou exercice de vos droits RGPD, notre équipe vous répond sous 48h :"
       },
@@ -1044,7 +1044,7 @@ const translations = {
         confirmCheck: "Je confirme être le titulaire de ce compte Trotkin et comprends que la suppression des données sélectionnées est irréversible après vérification.",
         submitBtn: "Envoyer la demande de suppression",
         successTitle: "Demande préparée et enregistrée",
-        openMailBtn: "Ouvrir mon client e-mail (dpo@trotkin.app)",
+        openMailBtn: "Ouvrir mon client e-mail (dpo@trotkin.com)",
         copyBtn: "Copier la demande"
       },
       termsPage: {
@@ -1071,7 +1071,7 @@ const translations = {
         a5Body: "Trotkin est distribué gratuitement sur Google Play et financé par des bannières adaptatives Google AdMob conformes au fichier officiel app-ads.txt. Vous pouvez clôturer votre compte et supprimer vos données gratuitement et sans préavis à tout moment.",
         a6Cat: "Éditeur & Juridiction",
         a6Title: "Article 6 : Mentions Légales & Contact",
-        a6Body: "Éditeur : Trotkin Pet Care • Hébergement web : Cloudflare Pages • Infrastructure Cloud : Google Firebase & Supabase (chiffrement TLS 1.3). Contact juridique : legal@trotkin.app • Support : support@trotkin.app."
+        a6Body: "Éditeur : Trotkin Pet Care • Hébergement web : Cloudflare Pages • Infrastructure Cloud : Google Firebase & Supabase (chiffrement TLS 1.3). Contact juridique : legal@trotkin.com • Support : support@trotkin.com."
       },
       contactPage: {
         badgeSla: "Réponse sous 24h à 48h",
@@ -1135,7 +1135,7 @@ const translations = {
         s4Sub: "Access, rectification, portability, and permanent erasure",
         s4Body: "Under GDPR and Google Play policy, you have the right to access, rectify, export, or permanently delete your account and all associated data directly inside the app or via our dedicated public web portal.",
         deleteCta: "Request Account or Data Deletion",
-        contactDpoCta: "Contact our DPO (dpo@trotkin.app)",
+        contactDpoCta: "Contact our DPO (dpo@trotkin.com)",
         s5Title: "5. Data Protection Officer (DPO)",
         s5Body: "For any privacy inquiry or to exercise your GDPR rights, our team responds within 48 hours:"
       },
@@ -1165,7 +1165,7 @@ const translations = {
         confirmCheck: "I confirm that I am the owner of this Trotkin account and understand that deleting the selected data is permanent and irreversible once verified.",
         submitBtn: "Submit Deletion Request",
         successTitle: "Deletion Request Prepared",
-        openMailBtn: "Open Email Client (dpo@trotkin.app)",
+        openMailBtn: "Open Email Client (dpo@trotkin.com)",
         copyBtn: "Copy Request Details"
       },
       termsPage: {
@@ -1192,7 +1192,7 @@ const translations = {
         a5Body: "Trotkin is available free of charge on Google Play and supported by family-safe adaptive Google AdMob banners verified via our official app-ads.txt file. You may close your account and delete your data free of charge at any time.",
         a6Cat: "Publisher & Jurisdiction",
         a6Title: "Article 6: Legal Notice & Contact",
-        a6Body: "Publisher: Trotkin Pet Care • Web Hosting: Cloudflare Pages • Cloud Infrastructure: Google Firebase & Supabase (TLS 1.3 encryption). Legal contact: legal@trotkin.app • Support: support@trotkin.app."
+        a6Body: "Publisher: Trotkin Pet Care • Web Hosting: Cloudflare Pages • Cloud Infrastructure: Google Firebase & Supabase (TLS 1.3 encryption). Legal contact: legal@trotkin.com • Support: support@trotkin.com."
       },
       contactPage: {
         badgeSla: "Response within 24–48h",
@@ -1234,7 +1234,7 @@ const translations = {
         vetTitle: "Aviso Veterinario",
         vetBody: "Trotkin es un registro diario de cuidado canino y no ofrece diagnóstico médico ni sustituye la consulta con un veterinario colegiado.",
         deleteCta: "Solicitar eliminación de cuenta o datos",
-        contactDpoCta: "Contactar al DPO (dpo@trotkin.app)"
+        contactDpoCta: "Contactar al DPO (dpo@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portal Oficial RGPD y Google Play",
@@ -1272,7 +1272,7 @@ const translations = {
         vetTitle: "Tierärztlicher Hinweis",
         vetBody: "Trotkin ist ein tägliches Organisationsprotokoll für Hundehalter und ersetzt keine tierärztliche Diagnose oder Behandlung.",
         deleteCta: "Konto- oder Datenlöschung beantragen",
-        contactDpoCta: "Datenschutzbeauftragten kontaktieren (dpo@trotkin.app)"
+        contactDpoCta: "Datenschutzbeauftragten kontaktieren (dpo@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Offizielles DSGVO- & Google Play-Portal",
@@ -1310,7 +1310,7 @@ const translations = {
         vetTitle: "Avvertenza Veterinaria",
         vetBody: "Trotkin è un registro quotidiano di benessere per cani e non sostituisce il parere o la visita di un medico veterinario.",
         deleteCta: "Richiedi eliminazione account o dati",
-        contactDpoCta: "Contatta il DPO (dpo@trotkin.app)"
+        contactDpoCta: "Contatta il DPO (dpo@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portale Ufficiale GDPR e Google Play",
@@ -1348,7 +1348,7 @@ const translations = {
         vetTitle: "Aviso Veterinário",
         vetBody: "O Trotkin é um diário de organização diária para cães e não substitui o diagnóstico ou atendimento de um médico veterinário.",
         deleteCta: "Solicitar exclusão de conta ou dados",
-        contactDpoCta: "Contatar o DPO (dpo@trotkin.app)"
+        contactDpoCta: "Contatar o DPO (dpo@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portal Oficial RGPD e Google Play",

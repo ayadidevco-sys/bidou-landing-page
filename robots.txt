@@ -15,4 +15,4 @@ User-agent: AdsBot-Google
 Allow: /
 Allow: /app-ads.txt
 
-Sitemap: https://trotkin.app/sitemap.xml
+Sitemap: https://trotkin.com/sitemap.xml

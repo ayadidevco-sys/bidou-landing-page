@@ -4,30 +4,30 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <!-- Homepage -->
   <url>
-    <loc>https://trotkin.app/</loc>
+    <loc>https://trotkin.com/</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://trotkin.app/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://trotkin.app/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://trotkin.app/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://trotkin.app/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://trotkin.app/?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://trotkin.app/?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://trotkin.app/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trotkin.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://trotkin.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trotkin.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://trotkin.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://trotkin.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://trotkin.com/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://trotkin.com/?lang=pt"/>
     <image:image>
-      <image:loc>https://trotkin.app/images/img1.png</image:loc>
+      <image:loc>https://trotkin.com/images/img1.png</image:loc>
       <image:title>Trotkin: Dog Care &amp; Health Log App Icon</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://trotkin.app/images/img2.png</image:loc>
+      <image:loc>https://trotkin.com/images/img2.png</image:loc>
       <image:title>Trotkin Daily Dog Care &amp; Potty Tracker Dashboard</image:title>
     </image:image>
   </url>
 
   <!-- Privacy Policy (Google Play Data Safety) -->
   <url>
-    <loc>https://trotkin.app/privacy</loc>
+    <loc>https://trotkin.com/privacy</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -35,7 +35,7 @@
 
   <!-- Account & Data Deletion Portal (Google Play Mandatory Policy) -->
   <url>
-    <loc>https://trotkin.app/delete-account</loc>
+    <loc>https://trotkin.com/delete-account</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -43,7 +43,7 @@
 
   <!-- Terms of Service & Legal Notices -->
   <url>
-    <loc>https://trotkin.app/terms</loc>
+    <loc>https://trotkin.com/terms</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -51,7 +51,7 @@
 
   <!-- Contact, DPO & AdMob Transparency -->
   <url>
-    <loc>https://trotkin.app/contact</loc>
+    <loc>https://trotkin.com/contact</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
