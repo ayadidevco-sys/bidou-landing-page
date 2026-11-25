@@ -14,7 +14,7 @@ export const heroData = {
   badges: [
     { icon: '⏰', title: 'Sortie conseillée', subtitle: 'dans 45 minutes' },
     { icon: '💉', title: 'Rappel vaccin', subtitle: 'Rappel DHPP le 12 mai' },
-    { icon: '🏆', title: 'Bravo Bidou !', subtitle: '3 jours sans accident' },
+    { icon: '🏆', title: 'Bravo Trotkin !', subtitle: '3 jours sans accident' },
   ],
 } as const;
 

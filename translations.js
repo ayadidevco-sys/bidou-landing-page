@@ -1,4 +1,4 @@
-// Bidou Landing Page Translations
+// Trotkin Landing Page Translations
 const translations = {
   fr: {
     nav: {
@@ -40,7 +40,7 @@ const translations = {
     },
     cta: {
       title: "Prêt à vivre la plus belle aventure avec votre chiot ?",
-      subtitle: "Téléchargez Bidou gratuitement dès aujourd'hui sur Google Play Store et transformez son apprentissage en une routine complice et joyeuse.",
+      subtitle: "Téléchargez Trotkin gratuitement dès aujourd'hui sur Google Play Store et transformez son apprentissage en une routine complice et joyeuse.",
       download: "Téléchargement immédiat",
       compatible: "Compatible Android 8.0 et supérieur",
       qrTitle: "Scanner pour installer",
@@ -49,7 +49,7 @@ const translations = {
       badge1Sub: "dans 45 minutes",
       badge2Title: "Rappel vaccin",
       badge2Sub: "Rappel DHPP le 12 mai",
-      badge3Title: "Bravo Bidou !",
+      badge3Title: "Bravo Trotkin !",
       badge3Sub: "3 jours sans accident",
       feature1Title: "Suivi de la propreté prédictif",
       feature1Desc: "Notre algorithme doux analyse la fréquence des repas, des siestes et des boissons pour vous alerter au meilleur moment avant les petits accidents. Fini le stress des oublis dans le salon.",
@@ -74,7 +74,7 @@ const translations = {
       userExperience: "EXPÉRIENCE UTILISATEUR FLUIDE",
       adoptedByFamilies: "ADOPTÉ PAR LES FAMILLES",
       faqTitle: "QUESTIONS FRÉQUENTES",
-      faqSubtitle: "Tout savoir sur l'application Bidou"
+      faqSubtitle: "Tout savoir sur l'application Trotkin"
     },
     screens: {
       title: "Une interface épurée, tactile et rapide en balade",
@@ -87,7 +87,7 @@ const translations = {
       historyDesc: "Format adaptatif AdMob 100% canin",
       health: "4. Santé vétérinaire",
       healthDesc: "Poids, vaccins et rappels",
-      screen1Title: "Qu'a fait Bidou ?",
+      screen1Title: "Qu'a fait Trotkin ?",
       screen1Desc: "Besoin dehors ou dedans en un tap"
     },
     mockup: {
@@ -111,8 +111,8 @@ const translations = {
       currentWeight: "Poids actuel"
     },
     alt: {
-      dashboard: "Capture écran tableau de bord quotidien Bidou",
-      logo: "Icône officielle Bidou Companion"
+      dashboard: "Capture écran tableau de bord quotidien Trotkin",
+      logo: "Icône officielle Trotkin Companion"
     },
     a11y: {
       skip: "Passer au contenu principal",
@@ -128,17 +128,17 @@ const translations = {
       subtitle: "Des retours authentiques de propriétaires qui ont transformé les premières semaines avec leur compagnon."
     },
     faq: {
-      q1: "L'application Bidou est-elle compatible avec mon téléphone Android ?",
-      a1: "Oui, parfaitement ! Bidou fonctionne sur tous les smartphones équipés d'Android 8.0 (Oreo) ou version supérieure. L'application tire pleinement parti des dernières nouveautés de conception Material You sous Android 14 et Android 15 pour une navigation fluide et un affichage adaptatif.",
+      q1: "L'application Trotkin est-elle compatible avec mon téléphone Android ?",
+      a1: "Oui, parfaitement ! Trotkin fonctionne sur tous les smartphones équipés d'Android 8.0 (Oreo) ou version supérieure. L'application tire pleinement parti des dernières nouveautés de conception Material You sous Android 14 et Android 15 pour une navigation fluide et un affichage adaptatif.",
       q2: "Est-ce adapté à toutes les races de chiens et à quel âge commencer ?",
       a2: "Absolument. Lors de la création du profil, vous choisissez la race ou le type croisé de votre compagnon. Les courbes de poids, le rythme digestif et les conseils de socialisation s'ajustent sur-mesure, que vous ayez un Chihuahua de 2 mois ou un chiot Terre-Neuve. Vous pouvez commencer dès son premier jour d'arrivée à la maison !",
       q3: "Mes données et le carnet de santé de mon chien sont-ils protégés ?",
       a3: "Nous appliquons une politique de confidentialité stricte. Vos notes, photos de vaccins et historiques d'apprentissage restent chiffrés et sous votre contrôle absolu. Nous ne vendons aucune donnée comportementale ni personnelle à des tiers ou courtiers publicitaires.",
       q4: "L'application est-elle gratuite ? Y a-t-il des frais cachés ?",
-      a4: "Bidou est 100% gratuit au téléchargement sur Google Play, sans aucun abonnement payant ni fonctionnalités de base verrouillées. Cette gratuité est rendue possible grâce à une monétisation douce via des bannières adaptatives Google AdMob soigneusement intégrées. Nous sélectionnons rigoureusement des partenaires et sponsors de l'univers canin (nutrition saine, accessoires éco-responsables, mutuelles certifiées), sans aucune publicité trompeuse, sans pop-up intempestif et dans le strict respect de la vie privée (conformité RGPD & COPPA)."
+      a4: "Trotkin est 100% gratuit au téléchargement sur Google Play, sans aucun abonnement payant ni fonctionnalités de base verrouillées. Cette gratuité est rendue possible grâce à une monétisation douce via des bannières adaptatives Google AdMob soigneusement intégrées. Nous sélectionnons rigoureusement des partenaires et sponsors de l'univers canin (nutrition saine, accessoires éco-responsables, mutuelles certifiées), sans aucune publicité trompeuse, sans pop-up intempestif et dans le strict respect de la vie privée (conformité RGPD & COPPA)."
     },
     testimonial1: {
-      text: "« Bidou a sauvé notre parquet ! Dès qu'on a suivi le rythme des sorties suggéré, notre petit golden a compris où faire ses besoins. En deux semaines, quasiment plus aucun oubli à l'intérieur. »",
+      text: "« Trotkin a sauvé notre parquet ! Dès qu'on a suivi le rythme des sorties suggéré, notre petit golden a compris où faire ses besoins. En deux semaines, quasiment plus aucun oubli à l'intérieur. »",
       name: "Claire & Milo",
       dog: "Golden Retriever de 4 mois"
     },
@@ -159,7 +159,7 @@ const translations = {
       privacy: "Politique de Confidentialité",
       contact: "Contact",
       partners: "Partenaires & Annonceurs AdMob",
-      copyright: "© 2025 Bidou Companion App. Tous droits réservés."
+      copyright: "© 2026 Trotkin Companion App. Tous droits réservés."
     }
   },
   en: {
@@ -202,7 +202,7 @@ const translations = {
     },
     cta: {
       title: "Ready for the best adventure with your puppy?",
-      subtitle: "Download Bidou for free today on Google Play Store and transform training into a joyful, caring routine.",
+      subtitle: "Download Trotkin for free today on Google Play Store and transform training into a joyful, caring routine.",
       download: "Instant download",
       compatible: "Compatible with Android 8.0 and higher",
       qrTitle: "Scan to install",
@@ -211,7 +211,7 @@ const translations = {
       badge1Sub: "in 45 minutes",
       badge2Title: "Vaccine reminder",
       badge2Sub: "DHPP booster on May 12",
-      badge3Title: "Good job Bidou!",
+      badge3Title: "Good job Trotkin!",
       badge3Sub: "3 days accident-free",
       feature1Title: "Predictive potty tracking",
       feature1Desc: "Our gentle algorithm analyzes feeding frequency, naps, and drinking to alert you at the best time before accidents. No more stress of indoor messes.",
@@ -236,7 +236,7 @@ const translations = {
       userExperience: "SMOOTH USER EXPERIENCE",
       adoptedByFamilies: "ADOPTED BY FAMILIES",
       faqTitle: "FREQUENTLY ASKED QUESTIONS",
-      faqSubtitle: "Everything you need to know about Bidou"
+      faqSubtitle: "Everything you need to know about Trotkin"
     },
     screens: {
       title: "Clean, tactile interface, fast on walks",
@@ -249,7 +249,7 @@ const translations = {
       historyDesc: "100% dog-friendly AdMob adaptive format",
       health: "4. Veterinary health",
       healthDesc: "Weight, vaccines and reminders",
-      screen1Title: "What did Bidou do?",
+      screen1Title: "What did Trotkin do?",
       screen1Desc: "Indoor or outdoor need in one tap"
     },
     mockup: {
@@ -273,8 +273,8 @@ const translations = {
       currentWeight: "Current weight"
     },
     alt: {
-      dashboard: "Bidou daily dashboard screen capture",
-      logo: "Official Bidou Companion icon"
+      dashboard: "Trotkin daily dashboard screen capture",
+      logo: "Official Trotkin Companion icon"
     },
     a11y: {
       skip: "Skip to main content",
@@ -290,17 +290,17 @@ const translations = {
       subtitle: "Authentic feedback from owners who transformed the first weeks with their companion."
     },
     faq: {
-      q1: "Is the Bidou app compatible with my Android phone?",
-      a1: "Yes, perfectly! Bidou works on all smartphones with Android 8.0 (Oreo) or higher. The app takes full advantage of the latest Material You design features on Android 14 and Android 15 for smooth navigation and adaptive display.",
+      q1: "Is the Trotkin app compatible with my Android phone?",
+      a1: "Yes, perfectly! Trotkin works on all smartphones with Android 8.0 (Oreo) or higher. The app takes full advantage of the latest Material You design features on Android 14 and Android 15 for smooth navigation and adaptive display.",
       q2: "Is it suitable for all dog breeds and what age to start?",
       a2: "Absolutely! When creating the profile, you choose your companion's breed or mixed type. Weight curves, digestion rhythms, and socialization tips adjust customly, whether you have a 2-month-old Chihuahua or a Newfoundland puppy. You can start as soon as your puppy arrives home!",
       q3: "Are my data and my dog's health record protected?",
       a3: "We apply a strict privacy policy. Your notes, vaccine photos and learning history stay encrypted and under your absolute control. We never sell any behavioral or personal data to third parties or ad brokers.",
       q4: "Is the app free? Are there hidden fees?",
-      a4: "Bidou is 100% free to download on Google Play, with no paid subscription and no locked basic features. This free access is made possible by gentle monetization through carefully integrated Google AdMob adaptive banners. We rigorously select partners and sponsors from the canine world (healthy nutrition, eco-responsible accessories, certified pet insurers), with no misleading advertising, no intrusive pop-ups and strict respect for privacy (GDPR & COPPA compliance)."
+      a4: "Trotkin is 100% free to download on Google Play, with no paid subscription and no locked basic features. This free access is made possible by gentle monetization through carefully integrated Google AdMob adaptive banners. We rigorously select partners and sponsors from the canine world (healthy nutrition, eco-responsible accessories, certified pet insurers), with no misleading advertising, no intrusive pop-ups and strict respect for privacy (GDPR & COPPA compliance)."
     },
     testimonial1: {
-      text: "\"Bidou saved our floor! As soon as we followed the suggested outing rhythm, our little golden understood where to go. In two weeks, almost no more accidents inside.\"",
+      text: "\"Trotkin saved our floor! As soon as we followed the suggested outing rhythm, our little golden understood where to go. In two weeks, almost no more accidents inside.\"",
       name: "Claire & Milo",
       dog: "4-month-old Golden Retriever"
     },
@@ -321,7 +321,7 @@ const translations = {
       privacy: "Privacy Policy",
       contact: "Contact",
       partners: "AdMob Partners & Advertisers",
-      copyright: "© 2025 Bidou Companion App. All rights reserved."
+      copyright: "© 2026 Trotkin Companion App. All rights reserved."
     }
   },
   es: {
@@ -364,7 +364,7 @@ const translations = {
     },
     cta: {
       title: "¿Listo para la mejor aventura con tu cachorro?",
-      subtitle: "Descarga Bidou gratis hoy en Google Play Store y transforma el entrenamiento en una rutina alegre y cariñosa.",
+      subtitle: "Descarga Trotkin gratis hoy en Google Play Store y transforma el entrenamiento en una rutina alegre y cariñosa.",
       download: "Descarga instantánea",
       compatible: "Compatible con Android 8.0 y superior",
       qrTitle: "Escanear para instalar",
@@ -373,7 +373,7 @@ const translations = {
       badge1Sub: "en 45 minutos",
       badge2Title: "Recordatorio vacuna",
       badge2Sub: "Refuerzo DHPP el 12 de mayo",
-      badge3Title: "¡Buen trabajo Bidou!",
+      badge3Title: "¡Buen trabajo Trotkin!",
       badge3Sub: "3 días sin accidentes",
       feature1Title: "Seguimiento predictivo de limpieza",
       feature1Desc: "Nuestro algoritmo suave analiza la frecuencia de comidas, siestas y bebida para alertarte en el mejor momento antes de accidentes. Sin estrés de descuidos en casa.",
@@ -398,7 +398,7 @@ const translations = {
       userExperience: "EXPERIENCIA DE USUARIO FLUIDA",
       adoptedByFamilies: "ADOPTADO POR FAMILIAS",
       faqTitle: "PREGUNTAS FRECUENTES",
-      faqSubtitle: "Todo sobre la aplicación Bidou"
+      faqSubtitle: "Todo sobre la aplicación Trotkin"
     },
     screens: {
       title: "Interfaz limpia, táctil y rápida en paseos",
@@ -411,7 +411,7 @@ const translations = {
       historyDesc: "Formato adaptativo AdMob 100% canino",
       health: "4. Salud veterinaria",
       healthDesc: "Peso, vacunas y recordatorios",
-      screen1Title: "¿Qué hizo Bidou?",
+      screen1Title: "¿Qué hizo Trotkin?",
       screen1Desc: "Necesidad interior o exterior en un toque"
     },
     mockup: {
@@ -435,8 +435,8 @@ const translations = {
       currentWeight: "Peso actual"
     },
     alt: {
-      dashboard: "Captura de pantalla del panel diario de Bidou",
-      logo: "Icono oficial de Bidou Companion"
+      dashboard: "Captura de pantalla del panel diario de Trotkin",
+      logo: "Icono oficial de Trotkin Companion"
     },
     a11y: {
       skip: "Saltar al contenido principal",
@@ -452,17 +452,17 @@ const translations = {
       subtitle: "Comentarios auténticos de propietarios que transformaron las primeras semanas con su compañero."
     },
     faq: {
-      q1: "¿Es la aplicación Bidou compatible con mi teléfono Android?",
-      a1: "¡Sí, perfectamente! Bidou funciona en todos los teléfonos con Android 8.0 (Oreo) o superior. La aplicación aprovecha al máximo las últimas funciones de diseño Material You en Android 14 y Android 15 para una navegación fluida y pantalla adaptativa.",
+      q1: "¿Es la aplicación Trotkin compatible con mi teléfono Android?",
+      a1: "¡Sí, perfectamente! Trotkin funciona en todos los teléfonos con Android 8.0 (Oreo) o superior. La aplicación aprovecha al máximo las últimas funciones de diseño Material You en Android 14 y Android 15 para una navegación fluida y pantalla adaptativa.",
       q2: "¿Es adecuado para todas las razas de perros y a qué edad comenzar?",
       a2: "¡Absolutamente! Al crear el perfil, eliges la raza o tipo de cruce de tu compañero. Las curvas de peso, ritmos digestivos y consejos de socialización se ajustan a medida, ya sea que tengas un Chihuahua de 2 meses o un cachorro Terranova. ¡Puedes comenzar tan pronto como llegue a casa!",
       q3: "¿Están protegidos mis datos y el historial de salud de mi perro?",
       a3: "Aplicamos una política de privacidad estricta. Tus notas, fotos de vacunas e historiales de aprendizaje permanecen cifrados y bajo tu control absoluto. No vendemos ningún dato comportamental ni personal a terceros ni a corredores de publicidad.",
       q4: "¿Es la aplicación gratuita? ¿Hay cargos ocultos?",
-      a4: "Bidou es 100% gratuito para descargar en Google Play, sin ninguna suscripción de pago ni funciones básicas bloqueadas. Esta gratuidad es posible gracias a una monetización suave mediante banners adaptativos de Google AdMob cuidadosamente integrados. Seleccionamos rigurosamente socios y patrocinadores del mundo canino (nutrición saludable, accesorios ecológicos, aseguradoras certificadas), sin publicidad engañosa, sin pop-ups intempestivos y con estricto respeto de la privacidad (conformidad RGPD y COPPA)."
+      a4: "Trotkin es 100% gratuito para descargar en Google Play, sin ninguna suscripción de pago ni funciones básicas bloqueadas. Esta gratuidad es posible gracias a una monetización suave mediante banners adaptativos de Google AdMob cuidadosamente integrados. Seleccionamos rigurosamente socios y patrocinadores del mundo canino (nutrición saludable, accesorios ecológicos, aseguradoras certificadas), sin publicidad engañosa, sin pop-ups intempestivos y con estricto respeto de la privacidad (conformidad RGPD y COPPA)."
     },
     testimonial1: {
-      text: "\"¡Bidou salvó nuestro suelo! Tan pronto como seguimos el ritmo de salidas sugerido, nuestro pequeño golden entendió dónde hacer sus necesidades. En dos semanas, casi ningún accidente más dentro.\"",
+      text: "\"¡Trotkin salvó nuestro suelo! Tan pronto como seguimos el ritmo de salidas sugerido, nuestro pequeño golden entendió dónde hacer sus necesidades. En dos semanas, casi ningún accidente más dentro.\"",
       name: "Claire & Milo",
       dog: "Golden Retriever de 4 meses"
     },
@@ -483,7 +483,7 @@ const translations = {
       privacy: "Política de Privacidad",
       contact: "Contacto",
       partners: "Socios y Anunciantes de AdMob",
-      copyright: "© 2025 Bidou Companion App. Todos los derechos reservados."
+      copyright: "© 2026 Trotkin Companion App. Todos los derechos reservados."
     }
   },
   de: {
@@ -526,7 +526,7 @@ const translations = {
     },
     cta: {
       title: "Bereit für das beste Abenteuer mit Ihrem Welpen?",
-      subtitle: "Laden Sie Bidou heute kostenlos im Google Play Store herunter und verwandeln Sie das Training in eine freudige, fürsorgliche Routine.",
+      subtitle: "Laden Sie Trotkin heute kostenlos im Google Play Store herunter und verwandeln Sie das Training in eine freudige, fürsorgliche Routine.",
       download: "Sofortiger Download",
       compatible: "Kompatibel mit Android 8.0 und höher",
       qrTitle: "Zum Installieren scannen",
@@ -535,7 +535,7 @@ const translations = {
       badge1Sub: "in 45 Minuten",
       badge2Title: "Impf-Erinnerung",
       badge2Sub: "DHPP-Auffrischung am 12. Mai",
-      badge3Title: "Gut gemacht, Bidou!",
+      badge3Title: "Gut gemacht, Trotkin!",
       badge3Sub: "3 Tage unfallfrei",
       feature1Title: "Prädiktive Sauberkeitsverfolgung",
       feature1Desc: "Unser sanfter Algorithmus analysiert Fütterungszeiten, Nickerchen und Trinken, um Sie rechtzeitig vor Malheuren zu warnen. Kein Stress mehr mit Unfällen im Haus.",
@@ -560,7 +560,7 @@ const translations = {
       userExperience: "REIBUNGSLOSE BENUTZERERFAHRUNG",
       adoptedByFamilies: "VON FAMILIEN ANGENOMMEN",
       faqTitle: "HÄUFIG GESTELLTE FRAGEN",
-      faqSubtitle: "Alles über die Bidou-App"
+      faqSubtitle: "Alles über die Trotkin-App"
     },
     screens: {
       title: "Klare, taktile Oberfläche, schnell beim Spaziergang",
@@ -573,7 +573,7 @@ const translations = {
       historyDesc: "100% hundefreundliches AdMob-Adaptivformat",
       health: "4. Tierärztliche Gesundheit",
       healthDesc: "Gewicht, Impfungen und Erinnerungen",
-      screen1Title: "Was hat Bidou gemacht?",
+      screen1Title: "Was hat Trotkin gemacht?",
       screen1Desc: "Innen- oder Außenbedarf mit einem Tippen"
     },
     mockup: {
@@ -597,8 +597,8 @@ const translations = {
       currentWeight: "Aktuelles Gewicht"
     },
     alt: {
-      dashboard: "Screenshot des täglichen Bidou-Dashboards",
-      logo: "Offizielles Bidou Companion Symbol"
+      dashboard: "Screenshot des täglichen Trotkin-Dashboards",
+      logo: "Offizielles Trotkin Companion Symbol"
     },
     a11y: {
       skip: "Zum Hauptinhalt springen",
@@ -614,17 +614,17 @@ const translations = {
       subtitle: "Authentisches Feedback von Besitzern, die die ersten Wochen mit ihrem Begleiter transformiert haben."
     },
     faq: {
-      q1: "Ist die Bidou-App mit meinem Android-Telefon kompatibel?",
-      a1: "Ja, perfekt! Bidou funktioniert auf allen Smartphones mit Android 8.0 (Oreo) oder höher. Die App nutzt die neuesten Material You-Designfunktionen unter Android 14 und Android 15 für reibungslose Navigation und adaptive Anzeige.",
+      q1: "Ist die Trotkin-App mit meinem Android-Telefon kompatibel?",
+      a1: "Ja, perfekt! Trotkin funktioniert auf allen Smartphones mit Android 8.0 (Oreo) oder höher. Die App nutzt die neuesten Material You-Designfunktionen unter Android 14 und Android 15 für reibungslose Navigation und adaptive Anzeige.",
       q2: "Ist es für alle Hunderassen geeignet und in welchem Alter sollte man beginnen?",
       a2: "Absolut! Bei der Profilerstellung wählen Sie die Rasse oder den Mischling Ihres Gefährten. Gewichtskurven, Verdauungsrhythmen und Sozialisationstipps passen sich maßgeschneidert an, egal ob Sie einen 2 Monate alten Chihuahua oder einen Neufundländer-Welpen haben. Sie können ab dem ersten Tag der Ankunft zu Hause beginnen!",
       q3: "Sind meine Daten und die Gesundheitsakte meines Hundes geschützt?",
       a3: "Wir wenden eine strenge Datenschutzrichtlinie an. Ihre Notizen, Impffotos und Lernverläufe bleiben verschlüsselt und stehen vollständig unter Ihrer Kontrolle. Wir verkaufen keinerlei Verhaltens- oder personenbezogene Daten an Dritte oder Werbebroker.",
       q4: "Ist die App kostenlos? Gibt es versteckte Gebühren?",
-      a4: "Bidou ist zu 100% kostenlos auf Google Play herunterladbar, ohne kostenpflichtiges Abonnement und ohne gesperrte Basisfunktionen. Diese Gratisstellung wird durch eine sanfte Monetarisierung über sorgfältig integrierte adaptive Google-AdMob-Banner ermöglicht. Wir wählen Partner und Sponsoren aus der Hundewelt sorgfältig aus (gesunde Ernährung, umweltfreundliches Zubehör, zertifizierte Versicherungen), ohne irreführende Werbung, ohne aufdringliche Pop-ups und mit striktem Respekt der Privatsphäre (DSGVO- und COPPA-Konformität)."
+      a4: "Trotkin ist zu 100% kostenlos auf Google Play herunterladbar, ohne kostenpflichtiges Abonnement und ohne gesperrte Basisfunktionen. Diese Gratisstellung wird durch eine sanfte Monetarisierung über sorgfältig integrierte adaptive Google-AdMob-Banner ermöglicht. Wir wählen Partner und Sponsoren aus der Hundewelt sorgfältig aus (gesunde Ernährung, umweltfreundliches Zubehör, zertifizierte Versicherungen), ohne irreführende Werbung, ohne aufdringliche Pop-ups und mit striktem Respekt der Privatsphäre (DSGVO- und COPPA-Konformität)."
     },
     testimonial1: {
-      text: "\"Bidou hat unseren Boden gerettet! Sobald wir dem vorgeschlagenen Ausgangsrhythmus folgten, verstand unser kleiner Golden, wo er sich erleichtern sollte. In zwei Wochen fast keine Unfälle mehr drinnen.\"",
+      text: "\"Trotkin hat unseren Boden gerettet! Sobald wir dem vorgeschlagenen Ausgangsrhythmus folgten, verstand unser kleiner Golden, wo er sich erleichtern sollte. In zwei Wochen fast keine Unfälle mehr drinnen.\"",
       name: "Claire & Milo",
       dog: "4 Monate alter Golden Retriever"
     },
@@ -645,7 +645,7 @@ const translations = {
       privacy: "Datenschutzrichtlinie",
       contact: "Kontakt",
       partners: "AdMob-Partner und Werbetreibende",
-      copyright: "© 2025 Bidou Companion App. Alle Rechte vorbehalten."
+      copyright: "© 2026 Trotkin Companion App. Alle Rechte vorbehalten."
     }
   },
   it: {
@@ -688,7 +688,7 @@ const translations = {
     },
     cta: {
       title: "Pronto per la migliore avventura con il tuo cucciolo?",
-      subtitle: "Scarica Bidou gratuitamente oggi su Google Play Store e trasforma l'addestramento in una routine gioiosa e premurosa.",
+      subtitle: "Scarica Trotkin gratuitamente oggi su Google Play Store e trasforma l'addestramento in una routine gioiosa e premurosa.",
       download: "Download istantaneo",
       compatible: "Compatibile con Android 8.0 e superiore",
       qrTitle: "Scansiona per installare",
@@ -697,7 +697,7 @@ const translations = {
       badge1Sub: "tra 45 minuti",
       badge2Title: "Promemoria vaccino",
       badge2Sub: "Richiamo DHPP il 12 maggio",
-      badge3Title: "Bravo Bidou!",
+      badge3Title: "Bravo Trotkin!",
       badge3Sub: "3 giorni senza incidenti",
       feature1Title: "Tracciamento predittivo della pulizia",
       feature1Desc: "Il nostro algoritmo gentile analizza la frequenza di pasti, sonnellini e acqua per avvisarti al momento giusto prima dei piccoli incidenti. Niente più stress per dimenticanze in salotto.",
@@ -722,7 +722,7 @@ const translations = {
       userExperience: "ESPERIENZA UTENTE FLUIDA",
       adoptedByFamilies: "ADOTTATO DALLE FAMIGLIE",
       faqTitle: "DOMANDE FREQUENTI",
-      faqSubtitle: "Tutto sull'app Bidou"
+      faqSubtitle: "Tutto sull'app Trotkin"
     },
     screens: {
       title: "Interfaccia pulita, tattile e veloce in passeggiata",
@@ -735,7 +735,7 @@ const translations = {
       historyDesc: "Formato adattivo AdMob 100% canino",
       health: "4. Salute veterinaria",
       healthDesc: "Peso, vaccini e promemoria",
-      screen1Title: "Cosa ha fatto Bidou?",
+      screen1Title: "Cosa ha fatto Trotkin?",
       screen1Desc: "Bisogno interno o esterno con un tocco"
     },
     mockup: {
@@ -759,8 +759,8 @@ const translations = {
       currentWeight: "Peso attuale"
     },
     alt: {
-      dashboard: "Acquisizione schermata dashboard quotidiana di Bidou",
-      logo: "Icona ufficiale di Bidou Companion"
+      dashboard: "Acquisizione schermata dashboard quotidiana di Trotkin",
+      logo: "Icona ufficiale di Trotkin Companion"
     },
     a11y: {
       skip: "Vai al contenuto principale",
@@ -776,17 +776,17 @@ const translations = {
       subtitle: "Feedback autentici di proprietari che hanno trasformato le prime settimane con il loro compagno."
     },
     faq: {
-      q1: "L'app Bidou è compatibile con il mio telefono Android?",
-      a1: "Sì, perfettamente! Bidou funziona su tutti gli smartphone con Android 8.0 (Oreo) o superiore. L'app sfrutta appieno le ultime funzionalità di design Material You su Android 14 e Android 15 per una navigazione fluida e un display adattivo.",
+      q1: "L'app Trotkin è compatibile con il mio telefono Android?",
+      a1: "Sì, perfettamente! Trotkin funziona su tutti gli smartphone con Android 8.0 (Oreo) o superiore. L'app sfrutta appieno le ultime funzionalità di design Material You su Android 14 e Android 15 per una navigazione fluida e un display adattivo.",
       q2: "È adatto a tutte le razze di cani e a quale età iniziare?",
       a2: "Assolutamente! Durante la creazione del profilo, scegli la razza o il tipo di incrocio del tuo compagno. Le curve di peso, i ritmi digestivi e i consigli di socializzazione si adattano personalmente, sia che tu abbia un Chihuahua di 2 mesi o un cucciolo di Terranova. Puoi iniziare dal primo giorno che arriva a casa!",
       q3: "I miei dati e la cartella clinica del mio cane sono protetti?",
       a3: "Applichiamo una rigida politica sulla privacy. Le tue note, le foto dei vaccini e gli storici di apprendimento restano crittografati e sotto il tuo controllo assoluto. Non vendiamo alcun dato comportamentale o personale a terzi o broker pubblicitari.",
       q4: "L'app è gratuita? Ci sono costi nascosti?",
-      a4: "Bidou è scaricabile gratuitamente al 100% su Google Play, senza alcun abbonamento a pagamento né funzionalità di base bloccate. Questa gratuità è resa possibile da una monetizzazione dolce tramite banner adattivi Google AdMob integrati con cura. Selezioniamo rigorosamente partner e sponsor del mondo canino (nutrizione sana, accessori ecosostenibili, assicurazioni certificate), senza pubblicità ingannevole, senza pop-up invadenti e nel pieno rispetto della privacy (conformità GDPR e COPPA)."
+      a4: "Trotkin è scaricabile gratuitamente al 100% su Google Play, senza alcun abbonamento a pagamento né funzionalità di base bloccate. Questa gratuità è resa possibile da una monetizzazione dolce tramite banner adattivi Google AdMob integrati con cura. Selezioniamo rigorosamente partner e sponsor del mondo canino (nutrizione sana, accessori ecosostenibili, assicurazioni certificate), senza pubblicità ingannevole, senza pop-up invadenti e nel pieno rispetto della privacy (conformità GDPR e COPPA)."
     },
     testimonial1: {
-      text: "\"Bidou ha salvato il nostro pavimento! Non appena abbiamo seguito il ritmo di uscite suggerito, il nostro piccolo golden ha capito dove fare i suoi bisogni. In due settimane, quasi nessun incidente più all'interno.\"",
+      text: "\"Trotkin ha salvato il nostro pavimento! Non appena abbiamo seguito il ritmo di uscite suggerito, il nostro piccolo golden ha capito dove fare i suoi bisogni. In due settimane, quasi nessun incidente più all'interno.\"",
       name: "Claire & Milo",
       dog: "Golden Retriever di 4 mesi"
     },
@@ -807,7 +807,7 @@ const translations = {
       privacy: "Politica sulla Privacy",
       contact: "Contatto",
       partners: "Partner e Inserzionisti AdMob",
-      copyright: "© 2025 Bidou Companion App. Tutti i diritti riservati."
+      copyright: "© 2026 Trotkin Companion App. Tutti i diritti riservati."
     }
   },
   pt: {
@@ -850,7 +850,7 @@ const translations = {
     },
     cta: {
       title: "Pronto para a melhor aventura com seu filhote?",
-      subtitle: "Baixe Bidou gratuitamente hoje no Google Play Store e transforme o treinamento em uma rotina alegre e carinhosa.",
+      subtitle: "Baixe Trotkin gratuitamente hoje no Google Play Store e transforme o treinamento em uma rotina alegre e carinhosa.",
       download: "Download instantâneo",
       compatible: "Compatível com Android 8.0 e superior",
       qrTitle: "Digitalizar para instalar",
@@ -859,7 +859,7 @@ const translations = {
       badge1Sub: "em 45 minutos",
       badge2Title: "Lembrete de vacina",
       badge2Sub: "Reforço DHPP em 12 de maio",
-      badge3Title: "Bom trabalho, Bidou!",
+      badge3Title: "Bom trabalho, Trotkin!",
       badge3Sub: "3 dias sem acidentes",
       feature1Title: "Rastreamento preditivo de higiene",
       feature1Desc: "Nosso algoritmo suave analisa a frequência de refeições, cochilos e bebidas para alertá-lo no melhor momento antes dos pequenos acidentes. Sem mais estresse com acidentes em casa.",
@@ -884,7 +884,7 @@ const translations = {
       userExperience: "EXPERIÊNCIA DO USUÁRIO FLUIDA",
       adoptedByFamilies: "ADOTADO POR FAMÍLIAS",
       faqTitle: "PERGUNTAS FREQUENTES",
-      faqSubtitle: "Tudo sobre o aplicativo Bidou"
+      faqSubtitle: "Tudo sobre o aplicativo Trotkin"
     },
     screens: {
       title: "Interface limpa, tátil e rápida em passeios",
@@ -897,7 +897,7 @@ const translations = {
       historyDesc: "Formato adaptativo AdMob 100% canino",
       health: "4. Saúde veterinária",
       healthDesc: "Peso, vacinas e lembretes",
-      screen1Title: "O que o Bidou fez?",
+      screen1Title: "O que o Trotkin fez?",
       screen1Desc: "Necessidade interna ou externa com um toque"
     },
     mockup: {
@@ -921,8 +921,8 @@ const translations = {
       currentWeight: "Peso atual"
     },
     alt: {
-      dashboard: "Captura de tela do painel diário do Bidou",
-      logo: "Ícone oficial do Bidou Companion"
+      dashboard: "Captura de tela do painel diário do Trotkin",
+      logo: "Ícone oficial do Trotkin Companion"
     },
     a11y: {
       skip: "Pular para o conteúdo principal",
@@ -938,17 +938,17 @@ const translations = {
       subtitle: "Feedback autêntico de proprietários que transformaram as primeiras semanas com seu companheiro."
     },
     faq: {
-      q1: "O aplicativo Bidou é compatível com meu telefone Android?",
-      a1: "Sim, perfeitamente! Bidou funciona em todos os smartphones com Android 8.0 (Oreo) ou superior. O aplicativo aproveita ao máximo os recursos de design Material You mais recentes no Android 14 e Android 15 para navegação suave e exibição adaptativa.",
+      q1: "O aplicativo Trotkin é compatível com meu telefone Android?",
+      a1: "Sim, perfeitamente! Trotkin funciona em todos os smartphones com Android 8.0 (Oreo) ou superior. O aplicativo aproveita ao máximo os recursos de design Material You mais recentes no Android 14 e Android 15 para navegação suave e exibição adaptativa.",
       q2: "É adequado para todas as raças de cães e com que idade começar?",
       a2: "Com certeza! Na criação do perfil, você escolhe a raça ou tipo de mistura do seu companheiro. As curvas de peso, ritmo digestivo e dicas de socialização se ajustam de forma personalizada, quer você tenha um Chihuahua de 2 meses ou um filhote de Terra Nova. Você pode começar assim que ele chegar em casa!",
       q3: "Meus dados e a ficha médica do meu cão estão protegidos?",
       a3: "Aplicamos uma política de privacidade rigorosa. Suas anotações, fotos de vacinas e históricos de aprendizado permanecem criptografados e sob seu controle absoluto. Não vendemos nenhum dado comportamental ou pessoal a terceiros ou corretores de anúncios.",
       q4: "O aplicativo é gratuito? Existem taxas ocultas?",
-      a4: "O Bidou é 100% gratuito para baixar no Google Play, sem nenhuma assinatura paga nem recursos básicos bloqueados. Essa gratuidade é possível graças a uma monetização suave por meio de banners adaptativos do Google AdMob cuidadosamente integrados. Selecionamos rigorosamente parceiros e patrocinadores do mundo canino (nutrição saudável, acessórios ecológicos, seguradoras certificadas), sem publicidade enganosa, sem pop-ups intempestivos e com estrito respeito à privacidade (conformidade GDPR e COPPA)."
+      a4: "O Trotkin é 100% gratuito para baixar no Google Play, sem nenhuma assinatura paga nem recursos básicos bloqueados. Essa gratuidade é possível graças a uma monetização suave por meio de banners adaptativos do Google AdMob cuidadosamente integrados. Selecionamos rigorosamente parceiros e patrocinadores do mundo canino (nutrição saudável, acessórios ecológicos, seguradoras certificadas), sem publicidade enganosa, sem pop-ups intempestivos e com estrito respeito à privacidade (conformidade GDPR e COPPA)."
     },
     testimonial1: {
-      text: "\"Bidou salvou nosso chão! Assim que seguimos o ritmo de saídas sugerido, nosso pequeno golden entendeu onde fazer suas necessidades. Em duas semanas, quase nenhum acidente mais dentro de casa.\"",
+      text: "\"Trotkin salvou nosso chão! Assim que seguimos o ritmo de saídas sugerido, nosso pequeno golden entendeu onde fazer suas necessidades. Em duas semanas, quase nenhum acidente mais dentro de casa.\"",
       name: "Claire & Milo",
       dog: "Golden Retriever de 4 meses"
     },
@@ -969,7 +969,7 @@ const translations = {
       privacy: "Política de Privacidade",
       contact: "Contato",
       partners: "Parceiros e Anunciantes AdMob",
-      copyright: "© 2025 Bidou Companion App. Todos os direitos reservados."
+      copyright: "© 2026 Trotkin Companion App. Todos os direitos reservados."
     }
   }
 };

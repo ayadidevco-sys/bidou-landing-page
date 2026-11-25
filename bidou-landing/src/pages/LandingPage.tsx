@@ -11,7 +11,7 @@ export default function LandingPage(_props: Readonly<LandingPageProps>) {
     <div className="w-full min-h-screen bg-background">
       <Header 
         logo={logoUrl}
-        brandName="Bidou"
+        brandName="Trotkin"
         navItems={navigationItems}
       />
       
@@ -64,7 +64,7 @@ export default function LandingPage(_props: Readonly<LandingPageProps>) {
               Prêt à vivre la plus belle aventure avec votre chiot ?
             </h2>
             <p className="text-lg text-on-primary/90 max-w-2xl">
-              Téléchargez Bidou gratuitement et commencez à accompagner votre compagnon avec bienveillance et confiance.
+              Téléchargez Trotkin gratuitement et commencez à accompagner votre compagnon avec bienveillance et confiance.
             </p>
             <a href="#download" className="flex items-center justify-center gap-space-sm h-14 px-8 rounded-full bg-surface text-primary font-bold shadow-lg hover:shadow-xl transition-all active:scale-95">
               <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
@@ -79,10 +79,10 @@ export default function LandingPage(_props: Readonly<LandingPageProps>) {
         <footer className="w-full px-margin md:px-space-xl py-space-lg bg-surface-container-low border-t border-outline-variant/20">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md text-sm text-on-surface-variant">
             <div className="flex items-center gap-space-xs">
-              <img alt="Bidou logo" className="h-6 w-auto" src={logoUrl} />
-              <span className="font-bold text-on-surface">Bidou</span>
+              <img alt="Trotkin logo" className="h-6 w-auto" src={logoUrl} />
+              <span className="font-bold text-on-surface">Trotkin</span>
             </div>
-            <p>© 2026 Bidou. L'application bienveillante de son quotidien.</p>
+            <p>© 2026 Trotkin. L'application bienveillante de son quotidien.</p>
           </div>
         </footer>
       </main>

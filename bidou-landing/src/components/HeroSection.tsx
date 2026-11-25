@@ -61,7 +61,7 @@ export default function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary,
           <div className="w-[340px] sm:w-[420px] lg:w-[460px] aspect-square rounded-full bg-gradient-to-tr from-primary-fixed-dim/40 via-surface-container to-tertiary-fixed/50 absolute"></div>
           
           <div className="relative z-10 w-[270px] sm:w-[320px] rounded-xl shadow-xl overflow-hidden bg-surface-container-lowest p-2">
-            <img alt="Bidou app dashboard" className="w-full h-auto rounded-lg object-cover shadow-sm" src={mockupImage} />
+            <img alt="Trotkin app dashboard" className="w-full h-auto rounded-lg object-cover shadow-sm" src={mockupImage} />
           </div>
           
           {/* Floating Badges */}

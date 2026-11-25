@@ -167,7 +167,7 @@ The color architecture is built strictly for high-clarity daylight visibility, e
 Typography relies on **Plus Jakarta Sans** across all levels, marrying geometric precision with organic warmth.
 
 ### Editorial & Quantitative Guidelines
-- **French Typographical Hierarchy:** Titles employ sentence-case capitalization with generous line heights to accommodate accents and ascenders (e.g., *« Bonjour, Bidou ! »*, *« 8 mois • Cavalier King Charles »*).
+- **French Typographical Hierarchy:** Titles employ sentence-case capitalization with generous line heights to accommodate accents and ascenders (e.g., *« Bonjour, Trotkin ! »*, *« 8 mois • Cavalier King Charles »*).
 - **Stat & Biometric Figures:** Use `stat-numeric` with open tabular figures (`tnum`) for tracking weight (e.g., *7,4 kg*), walk distances (*2,8 km*), and routine timers.
 - **Hierarchy Separation:** Pair `headline-lg-mobile` or `headline-md` directly with muted `body-md` secondary copy in espresso at 70% opacity (`rgba(41, 35, 31, 0.70)`) to maintain clean visual breathing room.
 
@@ -214,7 +214,7 @@ The shape system adopts hyper-tactile, pill-forward roundness to create an appro
 - **Status Chips:** Pill containers with height 32dp, horizontal padding `space-md` (16dp). Inactive states use `#FFFFFF` with a faint border. Active states swap to `#29231F` background with `#FFF8F0` text, or filled contextual pastels matching the category.
 
 ### Cards & Modules
-- **Overview Dog Profile Card:** 32dp corner radius. Crisp `#FFFFFF` surface with micro-stroke (`rgba(41, 35, 31, 0.08)`). Houses dog avatar, name (*« Bidou »*), age, breed, and quick action chips.
+- **Overview Dog Profile Card:** 32dp corner radius. Crisp `#FFFFFF` surface with micro-stroke (`rgba(41, 35, 31, 0.08)`). Houses dog avatar, name (*« Trotkin »*), age, breed, and quick action chips.
 - **Routine Metric Tiles:** 24dp corner radius. Colored surfaces assigned by metric:
   - *Sortie / Balade:* `#E6EECF` (Pistachio)
   - *Besoins / Digestion:* `#ECE5FA` (Lavender)

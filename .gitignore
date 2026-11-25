@@ -5,6 +5,7 @@ node_modules/
 dist/
 
 # Tool state directories
+.codex/
 .freebuff/
 .claude/
 .agents/

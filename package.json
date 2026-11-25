@@ -1,9 +1,9 @@
 {
-  "name": "bidou-landing-static",
+  "name": "trotkin-landing-static",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Bidou landing page — static site (Cloudflare Pages)",
+  "description": "Trotkin landing page — static site (Cloudflare Pages)",
   "scripts": {
     "build": "node scripts/build-static.mjs",
     "preview": "node scripts/serve-static.mjs",
