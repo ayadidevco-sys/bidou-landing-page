@@ -12,6 +12,7 @@ const mime = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
+  '.txt': 'text/plain; charset=utf-8',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
@@ -22,8 +23,22 @@ const mime = {
   '.woff2': 'font/woff2',
 };
 
+const aliases = {
+  '/privacy-policy': '/privacy.html',
+  '/confidentialite': '/privacy.html',
+  '/politique-de-confidentialite': '/privacy.html',
+  '/terms-of-service': '/terms.html',
+  '/mentions-legales': '/terms.html',
+  '/cgu': '/terms.html',
+  '/account-deletion': '/delete-account.html',
+  '/suppression-compte': '/delete-account.html',
+  '/delete-data': '/delete-account.html',
+  '/support': '/contact.html',
+};
+
 createServer(async (req, res) => {
-  const url = decodeURIComponent((req.url ?? '/').split('?')[0]);
+  let url = decodeURIComponent((req.url ?? '/').split('?')[0]);
+  if (aliases[url]) url = aliases[url];
   const safe = normalize(url).replace(/^(\.\.[/\\])+/, '');
   let filePath = join(outDir, safe);
 
@@ -31,7 +46,12 @@ createServer(async (req, res) => {
     const info = await stat(filePath);
     if (info.isDirectory()) filePath = join(filePath, 'index.html');
   } catch {
-    filePath = join(outDir, 'index.html');
+    try {
+      await stat(filePath + '.html');
+      filePath = filePath + '.html';
+    } catch {
+      filePath = join(outDir, 'index.html');
+    }
   }
 
   try {

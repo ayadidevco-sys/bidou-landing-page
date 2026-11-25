@@ -973,3 +973,422 @@ const translations = {
     }
   }
 };
+
+
+// Extended 6-locale translations for Privacy, Terms, Account Deletion & Contact pages
+(function() {
+  const legalExtensions = {
+    fr: {
+      footerDelete: "Suppression de compte",
+      legalNav: { home: "Accueil", backHome: "Retour à l'accueil Trotkin" },
+      privacyPage: {
+        badgeGdpr: "Conforme RGPD & Google Play Data Safety",
+        badgeUpdated: "Mise à jour : Novembre 2026",
+        category: "Protection des données & Éthique",
+        title: "Politique de Confidentialité",
+        subtitle: "Vos données personnelles et le carnet de santé de votre chien vous appartiennent. Trotkin chiffre vos informations de bout en bout et ne vend jamais vos données à des courtiers tiers.",
+        pledgeTitle: "Engagement Éthique",
+        pledgeBody: "Chiffrement HTTPS/TLS 1.3 en transit et AES-256 au repos. Aucune revente de vos habitudes ou coordonnées à des tiers.",
+        vetTitle: "Avertissement Vétérinaire",
+        vetBody: "Trotkin est un journal d'organisation quotidienne pour chiens et ne fournit aucun diagnostic médical humain ou vétérinaire. Consultez toujours un vétérinaire diplômé.",
+        s1Title: "1. Données collectées (Déclaration Data Safety)",
+        s1Sub: "Profils, vaccins, journal quotidien et identifiants techniques",
+        s1Intro: "Pour assurer le fonctionnement de l'application et la synchronisation avec votre Cercle de Garde familial, nous collectons uniquement les données nécessaires :",
+        s1Item1Title: "Informations personnelles du tuteur",
+        s1Item1Desc: "Nom, adresse e-mail, identifiant utilisateur (@handle et UID Firebase), ainsi que téléphone et ville/adresse (optionnels) pour la gestion du compte et du Cercle de Garde.",
+        s1Item2Title: "Profil canin & Carnet de santé",
+        s1Item2Desc: "Nom du chien, race, date de naissance, poids, allergies, vaccins (dates, numéros de lot, rappels), repas, hydratation (ml) et historique des balades et besoins.",
+        s1Item3Title: "Photos & Documents (Optionnels)",
+        s1Item3Desc: "Photos de profil optionnelles (tuteur et chien) et justificatifs de vaccination stockés de manière sécurisée dans votre espace privé.",
+        s1Item4Title: "Activité & Identifiants publicitaires",
+        s1Item4Desc: "Journaux de diagnostic technique et identifiant publicitaire Android (Google Mobile Ads / AdMob) pour l'affichage de bannières adaptatives respectueuses.",
+        s2Title: "2. Utilisation des données & Cercle de Garde",
+        s2Sub: "Synchronisation familiale, rappels et bannières AdMob",
+        s2Bullet1: "<strong>Synchronisation du Cercle de Garde :</strong> Les journaux d'activité d'un chien ne sont visibles que par les membres que vous invitez explicitement via leur @handle selon leur rôle (Co-Gardien, Dog-Sitter ou Observateur).",
+        s2Bullet2: "<strong>Fonctionnement hors-ligne & Cloud :</strong> Vos saisies sont enregistrées localement sur votre téléphone puis synchronisées automatiquement dès le retour de la connexion réseau.",
+        s2Bullet3: "<strong>Publicité douce Google AdMob :</strong> Pour maintenir Trotkin gratuit sans verrouiller les fonctionnalités essentielles, l'application intègre le SDK Google Mobile Ads (AdMob). Aucune donnée médicale canine ou coordonnée personnelle n'est vendue à des courtiers de données.",
+        s3Title: "3. Sécurité, Chiffrement & Hébergement",
+        s3Sub: "Chiffrement TLS 1.3 / AES-256 et contrôle d'accès strict",
+        s3Body: "Toutes les communications entre l'application mobile Trotkin et nos infrastructures cloud (Firebase Authentication & Supabase PostgreSQL) sont chiffrées en transit via HTTPS/TLS 1.3 et au repos en AES-256. Des règles strictes d'isolation (Row-Level Security) garantissent que seuls les gardiens autorisés d'un chien peuvent consulter ou modifier son carnet.",
+        s4Title: "4. Vos droits RGPD & Suppression de compte",
+        s4Sub: "Accès, rectification, portabilité et effacement définitif",
+        s4Body: "Conformément au RGPD et aux règles Google Play, vous disposez d'un droit d'accès, de rectification, d'exportation et de suppression définitive de votre compte et de toutes les données associées, directement depuis l'application ou via notre portail web dédié.",
+        deleteCta: "Demander la suppression de mon compte ou de mes données",
+        contactDpoCta: "Contacter le DPO (dpo@trotkin.app)",
+        s5Title: "5. Délégué à la Protection des Données (DPO)",
+        s5Body: "Pour toute question relative à la confidentialité ou exercice de vos droits RGPD, notre équipe vous répond sous 48h :"
+      },
+      deletePage: {
+        badgePolicy: "Portail Officiel RGPD & Google Play",
+        category: "Souveraineté de vos données",
+        title: "Suppression de compte & des données associées",
+        subtitle: "Vous pouvez supprimer votre compte Trotkin (ou demander l'effacement de certaines données sans supprimer votre compte) à tout moment, directement depuis l'application Android ou via le formulaire web ci-dessous.",
+        inAppTitle: "Suppression immédiate dans l'application",
+        inAppIntro: "Si l'application Trotkin est installée sur votre téléphone Android :",
+        inAppStep1: "Ouvrez <strong>Trotkin</strong> et rendez-vous dans l'onglet <strong>Profil</strong>.",
+        inAppStep2: "Touchez <strong>Paramètres du compte & Confidentialité</strong>.",
+        inAppStep3: "Sélectionnez <strong>Supprimer mon compte et mes données</strong> puis confirmez.",
+        scopeTitle: "Données supprimées vs conservées",
+        deletedLabel: "Effacées définitivement (sous 7 jours) :",
+        deletedList: "• Identifiants Firebase Auth, e-mail, nom et @handle<br/>• Profils de vos chiens, photos et avatars<br/>• Historique des balades, besoins, repas et hydratation<br/>• Carnet de vaccination, poids et allergies<br/>• Accès et invitations du Cercle de Garde",
+        retainedLabel: "Conservation temporaire légale :",
+        retainedList: "• Les copies de sauvegarde chiffrées sont purgées automatiquement sous 30 jours maximum.<br/>• Les journaux techniques anonymisés de sécurité ne contiennent aucune donnée personnelle.",
+        webFormTitle: "Demande de suppression via le Web",
+        webFormSub: "Sans avoir besoin d'ouvrir l'application Trotkin",
+        emailLabel: "Adresse e-mail associée à votre compte Trotkin *",
+        handleLabel: "Votre @handle Trotkin ou nom du chien (optionnel)",
+        typeLabel: "Type de suppression souhaité *",
+        typeFull: "Suppression complète du compte et de toutes les données",
+        typePartial: "Suppression partielle de données (conserver mon compte actif)",
+        notesLabel: "Précisions éventuelles (ex: quelles données effacer en cas de suppression partielle)",
+        confirmCheck: "Je confirme être le titulaire de ce compte Trotkin et comprends que la suppression des données sélectionnées est irréversible après vérification.",
+        submitBtn: "Envoyer la demande de suppression",
+        successTitle: "Demande préparée et enregistrée",
+        openMailBtn: "Ouvrir mon client e-mail (dpo@trotkin.app)",
+        copyBtn: "Copier la demande"
+      },
+      termsPage: {
+        badgeArticles: "6 Articles • CGU & Mentions Légales",
+        category: "Cadre contractuel",
+        title: "Conditions Générales d'Utilisation & Mentions Légales",
+        version: "Version 2.1 • En vigueur au 25 Novembre 2026 • Application mobile Trotkin (Google Play)",
+        disclaimerTitle: "Avertissement Vétérinaire Impératif",
+        disclaimerBody: "Trotkin est exclusivement un outil bienveillant d'accompagnement quotidien et de suivi logistique pour chiens. Il ne fournit aucune fonctionnalité de santé humaine et ne remplace en aucun cas un avis clinique, un diagnostic médical ou la prise en charge d'une urgence par un vétérinaire diplômé.",
+        a1Cat: "Champ d'application",
+        a1Title: "Article 1 : Objet du service",
+        a1Body: "L'application Trotkin fournit aux propriétaires et gardiens de chiens une suite d'assistance quotidienne incluant le suivi des promenades et de la propreté, le carnet de vaccination avec rappels, le suivi des portions alimentaires et de l'hydratation, ainsi que le partage familial via le Cercle de Garde.",
+        a2Cat: "Compte & Cercle de Garde",
+        a2Title: "Article 2 : Création de compte & Accès",
+        a2Body: "L'accès à la synchronisation cloud requiert la création d'un profil sécurisé. L'application s'adresse aux utilisateurs âgés d'au moins 18 ans (ou 13 ans et plus avec autorisation parentale). Le gardien principal contrôle les permissions accordées aux membres invités via @handle (Co-Gardien, Dog-Sitter ou Observateur).",
+        a3Cat: "Garde & Soins",
+        a3Title: "Article 3 : Responsabilité du tuteur",
+        a3Body: "Le propriétaire demeure à tout instant l'unique gardien légal de son animal. Les alertes de rappels, statistiques de propreté et estimations de rations ou d'hydratation fournies par Trotkin sont purement indicatives et ne déchargent jamais le tuteur de l'observation directe de son compagnon.",
+        a4Cat: "Propriété",
+        a4Title: "Article 4 : Propriété intellectuelle",
+        a4Body: "La marque Trotkin, l'ensemble des composants graphiques, typographies, icônes, illustrations et algorithmes demeurent la propriété exclusive de Trotkin Pet Care. Toute rétro-ingénierie ou reproduction commerciale non autorisée est interdite.",
+        a5Cat: "Gratuité & Clôture",
+        a5Title: "Article 5 : Monétisation & Résiliation",
+        a5Body: "Trotkin est distribué gratuitement sur Google Play et financé par des bannières adaptatives Google AdMob conformes au fichier officiel app-ads.txt. Vous pouvez clôturer votre compte et supprimer vos données gratuitement et sans préavis à tout moment.",
+        a6Cat: "Éditeur & Juridiction",
+        a6Title: "Article 6 : Mentions Légales & Contact",
+        a6Body: "Éditeur : Trotkin Pet Care • Hébergement web : Cloudflare Pages • Infrastructure Cloud : Google Firebase & Supabase (chiffrement TLS 1.3). Contact juridique : legal@trotkin.app • Support : support@trotkin.app."
+      },
+      contactPage: {
+        badgeSla: "Réponse sous 24h à 48h",
+        category: "Assistance & Équipe Trotkin",
+        title: "Contact & Assistance",
+        subtitle: "Une question sur le suivi de votre chien, le Cercle de Garde familial ou vos données personnelles ? Notre équipe est à votre écoute.",
+        card1Title: "Support Utilisateurs",
+        card1Desc: "Aide sur l'application, synchronisation et Cercle de Garde",
+        card2Title: "Protection des Données (DPO)",
+        card2Desc: "Droits RGPD, exportation et suppression de compte",
+        card3Title: "Juridique & Partenariats",
+        card3Desc: "Mentions légales, presse et annonceurs canins",
+        formTitle: "Nous envoyer un message",
+        topicLabel: "Sujet de votre demande *",
+        topicSupport: "Assistance technique & Application mobile",
+        topicGdpr: "Confidentialité, RGPD & Données personnelles",
+        topicPartner: "Partenariat, Presse & Annonceurs AdMob",
+        nameLabel: "Votre nom *",
+        emailLabel: "Votre e-mail *",
+        msgLabel: "Votre message *",
+        sendBtn: "Envoyer le message",
+        admobTitle: "Transparence Google AdMob & app-ads.txt",
+        admobDesc: "Conformément au standard IAB Tech Lab et aux exigences Google AdMob, Trotkin publie son fichier officiel d'autorisation des vendeurs publicitaires à la racine du domaine :",
+        viewAppAds: "Consulter le fichier /app-ads.txt brut",
+        quickLinksTitle: "Accès rapides"
+      }
+    },
+    en: {
+      footerDelete: "Delete Account",
+      legalNav: { home: "Home", backHome: "Back to Trotkin Home" },
+      privacyPage: {
+        badgeGdpr: "GDPR & Google Play Data Safety Compliant",
+        badgeUpdated: "Last Updated: November 2026",
+        category: "Data Protection & Ethics",
+        title: "Privacy Policy",
+        subtitle: "Your personal details and your dog's health records belong to you. Trotkin encrypts your data end-to-end and never sells it to third-party data brokers.",
+        pledgeTitle: "Ethical Commitment",
+        pledgeBody: "HTTPS/TLS 1.3 encryption in transit and AES-256 at rest. We never sell your habits or contact details to third parties.",
+        vetTitle: "Veterinary Disclaimer",
+        vetBody: "Trotkin is a daily organization and wellness log for dog owners and provides no human or veterinary medical diagnosis. Always consult a licensed veterinarian.",
+        s1Title: "1. Data Collected (Google Play Data Safety)",
+        s1Sub: "Profiles, vaccines, daily routine logs, and technical identifiers",
+        s1Intro: "To provide core app functionality and sync with your household Care Circle, we collect only essential data:",
+        s1Item1Title: "Guardian Personal Information",
+        s1Item1Desc: "Name, email address, user identifiers (@handle and Firebase Auth UID), plus optional phone number and city/address for account and Care Circle management.",
+        s1Item2Title: "Dog Profile & Health Booklet",
+        s1Item2Desc: "Dog name, breed, birthdate, weight history, allergies, vaccinations (dates, batch numbers, booster alerts), meals, water intake (ml), and walk/potty logs.",
+        s1Item3Title: "Photos & Documents (Optional)",
+        s1Item3Desc: "Optional user/dog profile avatars and vaccine certificate images stored securely in your private workspace.",
+        s1Item4Title: "App Activity & Advertising ID",
+        s1Item4Desc: "Crash/diagnostic logs for offline stability and Android Advertising ID (Google Mobile Ads / AdMob) for non-intrusive adaptive banners.",
+        s2Title: "2. How Your Data Is Used & Care Circle Sync",
+        s2Sub: "Family household sync, reminders, and AdMob banners",
+        s2Bullet1: "<strong>Care Circle Household Sync:</strong> A dog's activity logs are visible only to household members you explicitly invite via @handle according to their assigned role (Co-Guardian, Dog Sitter, or Observer).",
+        s2Bullet2: "<strong>Offline-First & Cloud Sync:</strong> Entries logged without cell reception are stored locally on your device and synced automatically once you reconnect.",
+        s2Bullet3: "<strong>Gentle Google AdMob Monetization:</strong> To keep Trotkin free with zero locked core features, the app integrates Google Mobile Ads (AdMob). No personal details or dog health records are ever sold to data brokers.",
+        s3Title: "3. Security, Encryption & Cloud Hosting",
+        s3Sub: "TLS 1.3 / AES-256 encryption and strict Row-Level Security",
+        s3Body: "All traffic between the Trotkin mobile app and our cloud infrastructure (Firebase Authentication & Supabase PostgreSQL) is encrypted in transit via HTTPS/TLS 1.3 and at rest via AES-256. Strict Row-Level Security (RLS) ensures only authorized guardians can view or update a dog's record.",
+        s4Title: "4. Your GDPR Rights & Account Deletion",
+        s4Sub: "Access, rectification, portability, and permanent erasure",
+        s4Body: "Under GDPR and Google Play policy, you have the right to access, rectify, export, or permanently delete your account and all associated data directly inside the app or via our dedicated public web portal.",
+        deleteCta: "Request Account or Data Deletion",
+        contactDpoCta: "Contact our DPO (dpo@trotkin.app)",
+        s5Title: "5. Data Protection Officer (DPO)",
+        s5Body: "For any privacy inquiry or to exercise your GDPR rights, our team responds within 48 hours:"
+      },
+      deletePage: {
+        badgePolicy: "Official GDPR & Google Play Portal",
+        category: "Data Sovereignty",
+        title: "Account & Data Deletion Request",
+        subtitle: "You can delete your Trotkin account (or request deletion of specific data while keeping your account active) at any time—either instantly inside the Android app or via the web form below.",
+        inAppTitle: "Instant In-App Deletion",
+        inAppIntro: "If you have the Trotkin app installed on your Android device:",
+        inAppStep1: "Open <strong>Trotkin</strong> and go to the <strong>Profile</strong> tab.",
+        inAppStep2: "Tap <strong>Account Settings & Privacy</strong>.",
+        inAppStep3: "Select <strong>Delete My Account & Data</strong> and confirm.",
+        scopeTitle: "Deleted vs. Retained Data",
+        deletedLabel: "Permanently Deleted (within 7 days):",
+        deletedList: "• Firebase Auth credentials, email, name, and @handle<br/>• Dog profiles, photos, and avatars<br/>• Walk, potty, meal, and water hydration history<br/>• Vaccination records, weight history, and allergies<br/>• Care Circle memberships and invitations",
+        retainedLabel: "Temporary Legal & Backup Retention:",
+        retainedList: "• Encrypted disaster-recovery backups are automatically purged within 30 days maximum.<br/>• Anonymized technical crash/security logs contain no personal identifiers.",
+        webFormTitle: "Request Deletion via the Web",
+        webFormSub: "Without needing to open the Trotkin app",
+        emailLabel: "Email address linked to your Trotkin account *",
+        handleLabel: "Your Trotkin @handle or Dog Name (optional)",
+        typeLabel: "Requested deletion scope *",
+        typeFull: "Full Account & All Associated Data Deletion",
+        typePartial: "Partial Data Deletion (keep my account active)",
+        notesLabel: "Additional details (e.g., which specific records or dog profile to remove)",
+        confirmCheck: "I confirm that I am the owner of this Trotkin account and understand that deleting the selected data is permanent and irreversible once verified.",
+        submitBtn: "Submit Deletion Request",
+        successTitle: "Deletion Request Prepared",
+        openMailBtn: "Open Email Client (dpo@trotkin.app)",
+        copyBtn: "Copy Request Details"
+      },
+      termsPage: {
+        badgeArticles: "6 Articles • Terms & Legal Notice",
+        category: "Legal Framework",
+        title: "Terms of Service & Legal Notice",
+        version: "Version 2.1 • Effective November 25, 2026 • Trotkin Mobile App (Google Play)",
+        disclaimerTitle: "Mandatory Veterinary Disclaimer",
+        disclaimerBody: "Trotkin is a daily organization and wellness log for dog owners. It provides no human health features and does not provide medical diagnosis, clinical advice, or veterinary treatment. Always consult a licensed veterinarian for medical concerns or emergencies.",
+        a1Cat: "Scope of Service",
+        a1Title: "Article 1: Purpose of the Service",
+        a1Body: "Trotkin provides dog owners and caregivers with a daily tracking companion including walk and puppy potty logging, a digital vaccination booklet with booster reminders, meal portion and water hydration tracking, and household syncing via the Care Circle.",
+        a2Cat: "Account & Care Circle",
+        a2Title: "Article 2: Account Creation & Access",
+        a2Body: "Cloud synchronization requires creating a secure account. The app is intended for users aged 18 and over (or 13+ with parental consent; never under 13). The primary guardian controls permissions granted to members invited via @handle (Co-Guardian, Dog Sitter, or Observer).",
+        a3Cat: "Care & Custody",
+        a3Title: "Article 3: Guardian's Responsibility",
+        a3Body: "The owner remains at all times the sole legal guardian of their animal. Reminders, potty analytics, and feeding or hydration estimates provided by Trotkin are indicative only and never replace direct observation of your dog's health.",
+        a4Cat: "Ownership",
+        a4Title: "Article 4: Intellectual Property",
+        a4Body: "The Trotkin name, graphic components, typography, icons, illustrations, and algorithms remain the exclusive property of Trotkin Pet Care. Unauthorized reverse engineering or commercial reproduction is prohibited.",
+        a5Cat: "Free Access & Closure",
+        a5Title: "Article 5: Monetization & Termination",
+        a5Body: "Trotkin is available free of charge on Google Play and supported by family-safe adaptive Google AdMob banners verified via our official app-ads.txt file. You may close your account and delete your data free of charge at any time.",
+        a6Cat: "Publisher & Jurisdiction",
+        a6Title: "Article 6: Legal Notice & Contact",
+        a6Body: "Publisher: Trotkin Pet Care • Web Hosting: Cloudflare Pages • Cloud Infrastructure: Google Firebase & Supabase (TLS 1.3 encryption). Legal contact: legal@trotkin.app • Support: support@trotkin.app."
+      },
+      contactPage: {
+        badgeSla: "Response within 24–48h",
+        category: "Support & Trotkin Team",
+        title: "Contact & Support",
+        subtitle: "Have a question about tracking your dog's routine, syncing your family Care Circle, or managing your personal data? Our team is here to help.",
+        card1Title: "User Support",
+        card1Desc: "App help, cloud sync, and Care Circle assistance",
+        card2Title: "Data Protection Officer (DPO)",
+        card2Desc: "GDPR rights, data export, and account deletion",
+        card3Title: "Legal & Partnerships",
+        card3Desc: "Legal inquiries, press, and canine AdMob sponsors",
+        formTitle: "Send Us a Message",
+        topicLabel: "Topic of your inquiry *",
+        topicSupport: "Technical Support & Mobile App",
+        topicGdpr: "Privacy, GDPR & Personal Data",
+        topicPartner: "Partnerships, Press & AdMob Advertisers",
+        nameLabel: "Your Name *",
+        emailLabel: "Your Email *",
+        msgLabel: "Your Message *",
+        sendBtn: "Send Message",
+        admobTitle: "Google AdMob Transparency & app-ads.txt",
+        admobDesc: "In compliance with IAB Tech Lab standards and Google AdMob seller verification, Trotkin publishes its official authorized digital sellers file at the domain root:",
+        viewAppAds: "View raw /app-ads.txt file",
+        quickLinksTitle: "Quick Links"
+      }
+    },
+    es: {
+      footerDelete: "Eliminar cuenta",
+      legalNav: { home: "Inicio", backHome: "Volver al inicio de Trotkin" },
+      privacyPage: {
+        badgeGdpr: "Cumple con RGPD y Google Play Data Safety",
+        badgeUpdated: "Actualizado: Noviembre 2026",
+        category: "Protección de Datos y Ética",
+        title: "Política de Privacidad",
+        subtitle: "Tus datos personales y la cartilla de salud de tu perro te pertenecen. Trotkin cifra tu información y nunca vende tus datos a terceros.",
+        pledgeTitle: "Compromiso Ético",
+        pledgeBody: "Cifrado HTTPS/TLS 1.3 en tránsito y AES-256 en reposo. Nunca vendemos tus datos personales ni médicos.",
+        vetTitle: "Aviso Veterinario",
+        vetBody: "Trotkin es un registro diario de cuidado canino y no ofrece diagnóstico médico ni sustituye la consulta con un veterinario colegiado.",
+        deleteCta: "Solicitar eliminación de cuenta o datos",
+        contactDpoCta: "Contactar al DPO (dpo@trotkin.app)"
+      },
+      deletePage: {
+        badgePolicy: "Portal Oficial RGPD y Google Play",
+        category: "Soberanía de Datos",
+        title: "Eliminación de cuenta y datos asociados",
+        subtitle: "Puedes eliminar tu cuenta de Trotkin o solicitar el borrado de datos específicos desde la app Android o mediante el formulario web a continuación.",
+        submitBtn: "Enviar solicitud de eliminación"
+      },
+      termsPage: {
+        badgeArticles: "6 Artículos • Términos y Aviso Legal",
+        category: "Marco Legal",
+        title: "Condiciones de Uso y Aviso Legal",
+        disclaimerTitle: "Aviso Veterinario Obligatorio",
+        disclaimerBody: "Trotkin es una herramienta de organización diaria para dueños de perros y no sustituye el diagnóstico ni la atención de un veterinario."
+      },
+      contactPage: {
+        badgeSla: "Respuesta en 24–48h",
+        category: "Soporte y Equipo Trotkin",
+        title: "Contacto y Asistencia",
+        subtitle: "¿Tienes preguntas sobre el seguimiento de tu perro, el Círculo de Cuidado o tus datos personales? Estamos para ayudarte.",
+        sendBtn: "Enviar mensaje"
+      }
+    },
+    de: {
+      footerDelete: "Konto löschen",
+      legalNav: { home: "Startseite", backHome: "Zurück zur Trotkin-Startseite" },
+      privacyPage: {
+        badgeGdpr: "DSGVO & Google Play Data Safety konform",
+        badgeUpdated: "Aktualisiert: November 2026",
+        category: "Datenschutz & Ethik",
+        title: "Datenschutzerklärung",
+        subtitle: "Ihre persönlichen Daten und der Gesundheitspass Ihres Hundes gehören Ihnen. Trotkin verschlüsselt Ihre Daten und verkauft sie niemals an Dritte.",
+        pledgeTitle: "Ethisches Versprechen",
+        pledgeBody: "HTTPS/TLS 1.3-Verschlüsselung bei der Übertragung und AES-256 im Ruhezustand. Kein Verkauf Ihrer Daten.",
+        vetTitle: "Tierärztlicher Hinweis",
+        vetBody: "Trotkin ist ein tägliches Organisationsprotokoll für Hundehalter und ersetzt keine tierärztliche Diagnose oder Behandlung.",
+        deleteCta: "Konto- oder Datenlöschung beantragen",
+        contactDpoCta: "Datenschutzbeauftragten kontaktieren (dpo@trotkin.app)"
+      },
+      deletePage: {
+        badgePolicy: "Offizielles DSGVO- & Google Play-Portal",
+        category: "Datensouveränität",
+        title: "Konto- und Datenlöschung",
+        subtitle: "Sie können Ihr Trotkin-Konto jederzeit direkt in der Android-App oder über das untenstehende Webformular löschen lassen.",
+        submitBtn: "Löschungsantrag senden"
+      },
+      termsPage: {
+        badgeArticles: "6 Artikel • AGB & Impressum",
+        category: "Rechtlicher Rahmen",
+        title: "Nutzungsbedingungen & Rechtliche Hinweise",
+        disclaimerTitle: "Wichtiger tierärztlicher Hinweis",
+        disclaimerBody: "Trotkin dient ausschließlich der täglichen Organisation der Hundepflege und ersetzt keinen Tierarzt."
+      },
+      contactPage: {
+        badgeSla: "Antwort innerhalb von 24–48 Std.",
+        category: "Support & Trotkin-Team",
+        title: "Kontakt & Hilfe",
+        subtitle: "Fragen zur Hundepflege-App, zum Familien-Pflegekreis oder zum Datenschutz? Unser Team hilft Ihnen gerne.",
+        sendBtn: "Nachricht senden"
+      }
+    },
+    it: {
+      footerDelete: "Elimina account",
+      legalNav: { home: "Home", backHome: "Torna alla home di Trotkin" },
+      privacyPage: {
+        badgeGdpr: "Conforme a GDPR e Google Play Data Safety",
+        badgeUpdated: "Aggiornato: Novembre 2026",
+        category: "Protezione Dati ed Etica",
+        title: "Informativa sulla Privacy",
+        subtitle: "I tuoi dati personali e il libretto sanitario del tuo cane appartengono a te. Trotkin protegge i tuoi dati con crittografia e non li vende mai a terzi.",
+        pledgeTitle: "Impegno Etico",
+        pledgeBody: "Crittografia HTTPS/TLS 1.3 in transito e AES-256 a riposo. Nessuna vendita di dati a broker pubblicitari.",
+        vetTitle: "Avvertenza Veterinaria",
+        vetBody: "Trotkin è un registro quotidiano di benessere per cani e non sostituisce il parere o la visita di un medico veterinario.",
+        deleteCta: "Richiedi eliminazione account o dati",
+        contactDpoCta: "Contatta il DPO (dpo@trotkin.app)"
+      },
+      deletePage: {
+        badgePolicy: "Portale Ufficiale GDPR e Google Play",
+        category: "Sovranità dei Dati",
+        title: "Eliminazione dell'account e dei dati",
+        subtitle: "Puoi eliminare il tuo account Trotkin o richiedere la cancellazione di specifici dati dall'app Android o tramite il modulo web qui sotto.",
+        submitBtn: "Invia richiesta di eliminazione"
+      },
+      termsPage: {
+        badgeArticles: "6 Articoli • Termini e Note Legali",
+        category: "Quadro Contrattuale",
+        title: "Termini di Servizio e Note Legali",
+        disclaimerTitle: "Avvertenza Veterinaria Obbligatoria",
+        disclaimerBody: "Trotkin è uno strumento di organizzazione quotidiana per proprietari di cani e non sostituisce un veterinario."
+      },
+      contactPage: {
+        badgeSla: "Risposta entro 24–48 ore",
+        category: "Supporto e Team Trotkin",
+        title: "Contatti e Assistenza",
+        subtitle: "Domande sul monitoraggio del tuo cane, sulla Cerchia di Cura o sui tuoi dati? Il nostro team è a tua disposizione.",
+        sendBtn: "Invia messaggio"
+      }
+    },
+    pt: {
+      footerDelete: "Excluir conta",
+      legalNav: { home: "Início", backHome: "Voltar ao início do Trotkin" },
+      privacyPage: {
+        badgeGdpr: "Conforme RGPD/LGPD e Google Play Data Safety",
+        badgeUpdated: "Atualizado: Novembro 2026",
+        category: "Proteção de Dados e Ética",
+        title: "Política de Privacidade",
+        subtitle: "Seus dados pessoais e a carteira de saúde do seu cão pertencem a você. O Trotkin criptografa suas informações e nunca vende seus dados.",
+        pledgeTitle: "Compromisso Ético",
+        pledgeBody: "Criptografia HTTPS/TLS 1.3 em trânsito e AES-256 em repouso. Nunca vendemos seus dados a terceiros.",
+        vetTitle: "Aviso Veterinário",
+        vetBody: "O Trotkin é um diário de organização diária para cães e não substitui o diagnóstico ou atendimento de um médico veterinário.",
+        deleteCta: "Solicitar exclusão de conta ou dados",
+        contactDpoCta: "Contatar o DPO (dpo@trotkin.app)"
+      },
+      deletePage: {
+        badgePolicy: "Portal Oficial RGPD e Google Play",
+        category: "Soberania de Dados",
+        title: "Exclusão de conta e dados associados",
+        subtitle: "Você pode excluir sua conta Trotkin ou solicitar a remoção de dados específicos pelo aplicativo Android ou pelo formulário web abaixo.",
+        submitBtn: "Enviar solicitação de exclusão"
+      },
+      termsPage: {
+        badgeArticles: "6 Artigos • Termos e Aviso Legal",
+        category: "Quadro Legal",
+        title: "Termos de Uso e Aviso Legal",
+        disclaimerTitle: "Aviso Veterinário Obrigatório",
+        disclaimerBody: "O Trotkin é uma ferramenta de organização diária para tutores de cães e não substitui uma consulta veterinária."
+      },
+      contactPage: {
+        badgeSla: "Resposta em 24–48h",
+        category: "Suporte e Equipe Trotkin",
+        title: "Contato e Assistência",
+        subtitle: "Dúvidas sobre a rotina do seu cão, o Círculo de Cuidado familiar ou seus dados pessoais? Nossa equipe está pronta para ajudar.",
+        sendBtn: "Enviar mensagem"
+      }
+    }
+  };
+
+  Object.keys(legalExtensions).forEach(function(lang) {
+    if (!translations[lang]) return;
+    const ext = legalExtensions[lang];
+    const fallback = legalExtensions.en;
+    if (translations[lang].footer) {
+      translations[lang].footer.deleteAccount = ext.footerDelete;
+    }
+    translations[lang].legalNav = Object.assign({}, fallback.legalNav, ext.legalNav || {});
+    translations[lang].privacyPage = Object.assign({}, fallback.privacyPage, ext.privacyPage || {});
+    translations[lang].deletePage = Object.assign({}, fallback.deletePage, ext.deletePage || {});
+    translations[lang].termsPage = Object.assign({}, fallback.termsPage, ext.termsPage || {});
+    translations[lang].contactPage = Object.assign({}, fallback.contactPage, ext.contactPage || {});
+  });
+
+  if (typeof window !== 'undefined') {
+    window.translations = translations;
+  }
+})();

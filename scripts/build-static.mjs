@@ -5,7 +5,17 @@ import { fileURLToPath } from 'node:url';
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const outDir = join(root, 'dist');
 
-const entries = ['index.html', 'translations.js', 'images'];
+const entries = [
+  'index.html',
+  'privacy.html',
+  'delete-account.html',
+  'terms.html',
+  'contact.html',
+  'app-ads.txt',
+  '_redirects',
+  'translations.js',
+  'images',
+];
 
 async function exists(path) {
   try {

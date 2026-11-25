@@ -1,0 +1,11 @@
+# Cloudflare Pages clean URL & localized slug redirects for Trotkin
+/privacy-policy       /privacy        301
+/confidentialite      /privacy        301
+/politique-de-confidentialite /privacy 301
+/terms-of-service     /terms          301
+/mentions-legales     /terms          301
+/cgu                  /terms          301
+/account-deletion     /delete-account 301
+/suppression-compte   /delete-account 301
+/delete-data          /delete-account 301
+/support              /contact        301
