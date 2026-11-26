@@ -39,14 +39,14 @@ Trotkin brings together health records, activity tracking, vet contact managemen
 - **Palette:** Material Design 3 warm terracotta system. Primary `#a43d10`, primary-container `#f57848`, surface `#fff8f5`. This palette is locked and must not be replaced.
 - **Typography:** Plus Jakarta Sans across all text.
 - **Icons:** Material Symbols Outlined (Google Fonts).
-- **Favicon and app icon:** `images/img1.png` — the official Google Play Store icon.
+- **Favicon and app icon:** `images/img_rounded.png` — the official Google Play Store icon.
 
 ## Evidence on Hand
 
 - Full landing page: `index.html` (direct copy of the Stitch reference design).
 - Stitch reference: `.stitch/designs/landing.html` and `.stitch/designs/landing.png`.
 - DESIGN.md with full Material Design 3 color token set: `trotkin-landing/DESIGN.md`.
-- App icon (512×512 PNG): `images/img1.png`.
+- App icon (512×512 PNG): `images/img_rounded.png`.
 - Secondary image: `images/img2.png`.
 
 ## Product Principles
