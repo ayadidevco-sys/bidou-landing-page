@@ -24,7 +24,9 @@ export default function Header({ logo, brandName, navItems }: Readonly<HeaderPro
           ))}
         </nav>
         <a
-          href="#download"
+          href="https://play.google.com/store/apps/details?id=com.trotkin.app"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center justify-center h-[46px] px-space-lg rounded-full bg-primary-container text-on-primary font-bold text-sm shadow-sm hover:opacity-95 active:scale-95 transition-all"
         >
           Télécharger sur Google Play

@@ -31,7 +31,7 @@ export default function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary,
           
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center gap-space-md pt-space-xs w-full sm:w-auto">
-            <a href="#download" className="flex items-center justify-center gap-space-sm h-[54px] px-space-lg rounded-full bg-primary-container text-on-primary shadow-md hover:bg-primary transition-all active:scale-95">
+            <a href="https://play.google.com/store/apps/details?id=com.trotkin.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-space-sm h-[54px] px-space-lg rounded-full bg-primary-container text-on-primary shadow-md hover:bg-primary transition-all active:scale-95">
               <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
                 <path d="M3.609 1.814L13.793 12 3.61 22.186a2.38 2.38 0 0 1-.61-.914c-.167-.478-.256-1.01-.256-1.583V4.31c0-.573.089-1.105.256-1.583.153-.339.362-.647.61-.913zm11.3 11.3l2.453 2.453-11.83 6.83 9.377-9.283zm0-2.228L5.532 1.603l11.83 6.83-2.453 2.453zm1.127 1.114l3.193-1.844c1.026-.593 1.026-1.564 0-2.157l-3.193-1.844-2.229 2.228 2.229 2.617z"></path>
               </svg>
