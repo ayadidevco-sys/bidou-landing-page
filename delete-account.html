@@ -8,7 +8,7 @@
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://trotkin.com/delete-account"/>
   <link rel="manifest" href="site.webmanifest"/>
-  <link rel="icon" type="image/png" href="images/img1.png"/>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/><link rel="icon" type="image/png" sizes="512x512" href="images/img1.png"/><link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png"/><link rel="icon" type="image/png" sizes="48x48" href="images/icon-48.png"/><link rel="shortcut icon" href="favicon.ico"/><link rel="apple-touch-icon" sizes="192x192" href="apple-touch-icon.png"/>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
@@ -108,7 +108,7 @@
     <div class="h-20 w-full px-margin md:px-space-xl max-w-7xl mx-auto flex items-center justify-between gap-space-md">
       <div class="flex items-center gap-space-sm">
         <a href="index.html" class="flex items-center gap-space-sm">
-          <img alt="Trotkin official app icon" class="h-8 w-auto object-contain" src="images/img1.png"/>
+          <img alt="Trotkin official app icon" class="h-9 w-9 rounded-[10px] object-cover shadow-sm" src="images/img1.png"/>
           <span class="flex items-baseline gap-space-xs">
             <span class="font-headline-md text-headline-md text-on-surface tracking-tight">Trotkin</span>
             <span class="hidden sm:inline-block font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Companion</span>
@@ -270,9 +270,9 @@
               </div>
               <p class="font-body-sm text-body-sm text-on-tertiary-fixed-variant" id="delete-ticket-summary"></p>
               <div class="flex flex-wrap items-center gap-2 pt-1">
-                <a id="delete-mailto-link" href="mailto:dpo@trotkin.com" class="inline-flex items-center gap-1.5 px-space-md py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md">
+                <a id="delete-mailto-link" href="mailto:legal@trotkin.com" class="inline-flex items-center gap-1.5 px-space-md py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md">
                   <span class="material-symbols-outlined text-[16px]">mail</span>
-                  <span data-i18n="deletePage.openMailBtn">Ouvrir mon client e-mail (dpo@trotkin.com)</span>
+                  <span data-i18n="deletePage.openMailBtn">Ouvrir mon client e-mail (legal@trotkin.com)</span>
                 </a>
                 <button type="button" id="copy-request-btn" class="inline-flex items-center gap-1.5 px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md border border-outline-variant/40">
                   <span class="material-symbols-outlined text-[16px]">content_copy</span>
@@ -291,7 +291,7 @@
     <div class="w-full px-margin md:px-space-xl max-w-7xl mx-auto flex flex-col gap-space-lg">
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
         <div class="flex items-center gap-space-sm">
-          <div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-headline-sm text-headline-sm">T</div>
+          <img alt="Trotkin official app icon" data-i18n-alt="alt.logo" class="w-9 h-9 rounded-[10px] object-cover shadow-sm" src="images/img1.png" loading="lazy"/>
           <div class="flex flex-col">
             <span class="font-headline-sm text-headline-sm text-on-surface">Trotkin</span>
             <span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="footer.tagline">Le carnet de vie &amp; santé bienveillant de votre chiot</span>
@@ -383,9 +383,9 @@
           const subject = `[Trotkin GDPR Deletion Request ${refId}] ${email}`;
           lastBodyText = `Reference: ${refId}\nAccount Email: ${email}\nHandle / Dog Name: ${handle}\nRequest Type: ${typeLabel}\nAdditional Notes: ${notes}\n\nPlease permanently delete the specified Trotkin account/data in accordance with GDPR and Google Play Data Safety policy.`;
 
-          const mailtoUrl = `mailto:dpo@trotkin.com?cc=support@trotkin.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lastBodyText)}`;
+          const mailtoUrl = `mailto:legal@trotkin.com?cc=support@trotkin.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lastBodyText)}`;
           mailtoLink.setAttribute('href', mailtoUrl);
-          summaryEl.textContent = `Ref: ${refId} • ${email} (${typeLabel}). Votre demande est prête : cliquez ci-dessous pour l'envoyer directement à dpo@trotkin.com (traitement sous 7 jours maximum).`;
+          summaryEl.textContent = `Ref: ${refId} • ${email} (${typeLabel}). Votre demande est prête : cliquez ci-dessous pour l'envoyer directement à legal@trotkin.com (traitement sous 7 jours maximum).`;
           confirmBox.classList.remove('hidden');
           window.location.href = mailtoUrl;
         });

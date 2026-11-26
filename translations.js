@@ -1014,7 +1014,7 @@ const translations = {
         s4Sub: "Accès, rectification, portabilité et effacement définitif",
         s4Body: "Conformément au RGPD et aux règles Google Play, vous disposez d'un droit d'accès, de rectification, d'exportation et de suppression définitive de votre compte et de toutes les données associées, directement depuis l'application ou via notre portail web dédié.",
         deleteCta: "Demander la suppression de mon compte ou de mes données",
-        contactDpoCta: "Contacter le DPO (dpo@trotkin.com)",
+        contactDpoCta: "Contacter le DPO (legal@trotkin.com)",
         s5Title: "5. Délégué à la Protection des Données (DPO)",
         s5Body: "Pour toute question relative à la confidentialité ou exercice de vos droits RGPD, notre équipe vous répond sous 48h :"
       },
@@ -1044,14 +1044,14 @@ const translations = {
         confirmCheck: "Je confirme être le titulaire de ce compte Trotkin et comprends que la suppression des données sélectionnées est irréversible après vérification.",
         submitBtn: "Envoyer la demande de suppression",
         successTitle: "Demande préparée et enregistrée",
-        openMailBtn: "Ouvrir mon client e-mail (dpo@trotkin.com)",
+        openMailBtn: "Ouvrir mon client e-mail (legal@trotkin.com)",
         copyBtn: "Copier la demande"
       },
       termsPage: {
         badgeArticles: "6 Articles • CGU & Mentions Légales",
         category: "Cadre contractuel",
         title: "Conditions Générales d'Utilisation & Mentions Légales",
-        version: "Version 2.1 • En vigueur au 25 Novembre 2026 • Application mobile Trotkin (Google Play)",
+        version: "Version 1.0 • En vigueur au 25 Novembre 2026 • Application mobile Trotkin (Google Play)",
         disclaimerTitle: "Avertissement Vétérinaire Impératif",
         disclaimerBody: "Trotkin est exclusivement un outil bienveillant d'accompagnement quotidien et de suivi logistique pour chiens. Il ne fournit aucune fonctionnalité de santé humaine et ne remplace en aucun cas un avis clinique, un diagnostic médical ou la prise en charge d'une urgence par un vétérinaire diplômé.",
         a1Cat: "Champ d'application",
@@ -1135,7 +1135,7 @@ const translations = {
         s4Sub: "Access, rectification, portability, and permanent erasure",
         s4Body: "Under GDPR and Google Play policy, you have the right to access, rectify, export, or permanently delete your account and all associated data directly inside the app or via our dedicated public web portal.",
         deleteCta: "Request Account or Data Deletion",
-        contactDpoCta: "Contact our DPO (dpo@trotkin.com)",
+        contactDpoCta: "Contact our DPO (legal@trotkin.com)",
         s5Title: "5. Data Protection Officer (DPO)",
         s5Body: "For any privacy inquiry or to exercise your GDPR rights, our team responds within 48 hours:"
       },
@@ -1165,14 +1165,14 @@ const translations = {
         confirmCheck: "I confirm that I am the owner of this Trotkin account and understand that deleting the selected data is permanent and irreversible once verified.",
         submitBtn: "Submit Deletion Request",
         successTitle: "Deletion Request Prepared",
-        openMailBtn: "Open Email Client (dpo@trotkin.com)",
+        openMailBtn: "Open Email Client (legal@trotkin.com)",
         copyBtn: "Copy Request Details"
       },
       termsPage: {
         badgeArticles: "6 Articles • Terms & Legal Notice",
         category: "Legal Framework",
         title: "Terms of Service & Legal Notice",
-        version: "Version 2.1 • Effective November 25, 2026 • Trotkin Mobile App (Google Play)",
+        version: "Version 1.0 • Effective November 25, 2026 • Trotkin Mobile App (Google Play)",
         disclaimerTitle: "Mandatory Veterinary Disclaimer",
         disclaimerBody: "Trotkin is a daily organization and wellness log for dog owners. It provides no human health features and does not provide medical diagnosis, clinical advice, or veterinary treatment. Always consult a licensed veterinarian for medical concerns or emergencies.",
         a1Cat: "Scope of Service",
@@ -1234,7 +1234,7 @@ const translations = {
         vetTitle: "Aviso Veterinario",
         vetBody: "Trotkin es un registro diario de cuidado canino y no ofrece diagnóstico médico ni sustituye la consulta con un veterinario colegiado.",
         deleteCta: "Solicitar eliminación de cuenta o datos",
-        contactDpoCta: "Contactar al DPO (dpo@trotkin.com)"
+        contactDpoCta: "Contactar al DPO (legal@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portal Oficial RGPD y Google Play",
@@ -1272,7 +1272,7 @@ const translations = {
         vetTitle: "Tierärztlicher Hinweis",
         vetBody: "Trotkin ist ein tägliches Organisationsprotokoll für Hundehalter und ersetzt keine tierärztliche Diagnose oder Behandlung.",
         deleteCta: "Konto- oder Datenlöschung beantragen",
-        contactDpoCta: "Datenschutzbeauftragten kontaktieren (dpo@trotkin.com)"
+        contactDpoCta: "Datenschutzbeauftragten kontaktieren (legal@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Offizielles DSGVO- & Google Play-Portal",
@@ -1310,7 +1310,7 @@ const translations = {
         vetTitle: "Avvertenza Veterinaria",
         vetBody: "Trotkin è un registro quotidiano di benessere per cani e non sostituisce il parere o la visita di un medico veterinario.",
         deleteCta: "Richiedi eliminazione account o dati",
-        contactDpoCta: "Contatta il DPO (dpo@trotkin.com)"
+        contactDpoCta: "Contatta il DPO (legal@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portale Ufficiale GDPR e Google Play",
@@ -1348,7 +1348,7 @@ const translations = {
         vetTitle: "Aviso Veterinário",
         vetBody: "O Trotkin é um diário de organização diária para cães e não substitui o diagnóstico ou atendimento de um médico veterinário.",
         deleteCta: "Solicitar exclusão de conta ou dados",
-        contactDpoCta: "Contatar o DPO (dpo@trotkin.com)"
+        contactDpoCta: "Contatar o DPO (legal@trotkin.com)"
       },
       deletePage: {
         badgePolicy: "Portal Oficial RGPD e Google Play",
@@ -1391,4 +1391,477 @@ const translations = {
   if (typeof window !== 'undefined') {
     window.translations = translations;
   }
+})();
+
+
+// ASO & SEO Keyword-Optimized Copy across all 6 Supported Locales (FR, EN, ES, DE, IT, PT)
+// Derived from seo-keyword-research, aso-keyword-research, android-aso & localization skills
+(function() {
+  const seoUpgrades = {
+    fr: {
+      seo: {
+        title: "Trotkin : Suivi Chien & Santé — Propreté Chiot, Balades, Repas & Carnet de Vaccins",
+        description: "Trotkin est l'application gratuite de suivi chien et carnet de santé en famille : apprentissage de la propreté du chiot, balades, rations de croquettes, hydratation et rappels de vaccins sur Android."
+      },
+      hero: {
+        title: "Trotkin : L'application de suivi chien, propreté chiot & carnet de santé en famille",
+        subtitle: "Ne demandez plus jamais « Quelqu'un a-t-il déjà nourri ou sorti le chien ? ». Suivez les balades quotidiennes, l'apprentissage de la propreté du chiot, les repas, l'eau fraîche et le carnet de vaccination—synchronisés en temps réel avec votre famille et dog-sitter."
+      },
+      features: {
+        title: "Tout pour le suivi quotidien de votre chien, la propreté du chiot et son carnet de santé",
+        subtitle: "Du journal des besoins et balades en un geste jusqu'au Cercle de Garde familial partagé et aux rappels de vaccins vétérinaires.",
+        potty: "Suivi propreté chiot & journal des balades",
+        health: "Carnet de vaccination numérique & santé vétérinaire",
+        nutrition: "Rations alimentaires, repas & suivi d'hydratation (ml)",
+        stats: "Cercle de Garde familial partagé & statistiques"
+      },
+      cta: {
+        feature1Title: "Suivi propreté chiot & journal des balades",
+        feature1Desc: "Enregistrez les promenades, pipis, cacas et petits accidents intérieurs en une seconde. Suivez le taux de réussite dehors, la qualité des selles et les statistiques comportementales sur 7 et 30 jours.",
+        feature2Title: "Carnet de vaccination numérique & santé vétérinaire",
+        feature2Desc: "Conservez dates de vaccins (DHPP, Rage, Toux du chenil), numéros de lot, courbe de poids, vermifuges et allergies avec rappels automatiques de boosters et vétérinaires à proximité.",
+        feature3Title: "Rations alimentaires, repas & suivi d'hydratation (ml)",
+        feature3Desc: "Notez croquettes, pâtée et friandises au gramme près avec marques, calories et rappels de repas. Suivez la gamelle d'eau fraîche quotidienne (ml) et localisez les animaleries proches.",
+        feature4Title: "Cercle de Garde familial partagé & statistiques",
+        feature4Desc: "Invitez vos proches, colocataires ou dog-sitters via @handle avec des rôles sur-mesure (Co-Gardien, Dog-Sitter, Observateur). Gérez plusieurs chiens avec synchronisation hors-ligne automatique."
+      },
+      faq: {
+        q2: "Comment fonctionne le Cercle de Garde partagé en famille ou avec un dog-sitter, et est-ce adapté à toutes les races ?",
+        a2: "Trotkin s'adapte à toutes les races de chiots et chiens adultes tout en synchronisant votre foyer en temps réel. Invitez vos proches ou votre dog-sitter via leur @handle avec des permissions Co-Gardien, Dog-Sitter ou Observateur : chacun voit instantanément si le chien a mangé, bu ou fait sa balade, même hors-ligne."
+      },
+      footer: {
+        tagline: "Suivi chien, propreté chiot, repas, eau & carnet de vaccins en famille"
+      }
+    },
+    en: {
+      seo: {
+        title: "Trotkin: Dog Care & Health Log — Puppy Potty, Walks, Meals, Water & Vaccine Tracker",
+        description: "Trotkin is the calm, all-in-one dog care tracker and health log for families. Track daily dog walks, puppy potty training, meal portions, water intake, and digital vaccination records together on Android."
+      },
+      hero: {
+        title: "Trotkin: The All-in-One Dog Care Tracker & Family Health Log",
+        subtitle: "Never ask 'Did anyone feed or walk the dog yet?' again. Track puppy potty training, daily dog walks, meal portions, fresh water intake, and digital vaccination records together with your family and dog sitter in real time."
+      },
+      features: {
+        title: "Everything You Need for Daily Dog Care, Puppy Potty Training & Health Records",
+        subtitle: "From one-tap outdoor walk & potty logging to shared Care Circle permissions and vaccine booster reminders—built for zero mental load.",
+        potty: "Puppy Potty Training Log & Dog Walk Tracker",
+        health: "Digital Dog Vaccination Record & Health Log",
+        nutrition: "Dog Feeding Schedule, Meal Portions & Water Tracker",
+        stats: "Shared Family Care Circle & Pet Sitter Instructions"
+      },
+      cta: {
+        feature1Title: "Puppy Potty Training Log & Dog Walk Tracker",
+        feature1Desc: "Record outdoor walks, pee, poop, and indoor accidents in one tap. Track stool quality, digestion rhythms, and 7-day or 30-day potty training analytics to celebrate accident-free streaks.",
+        feature2Title: "Digital Dog Vaccination Record & Health Log",
+        feature2Desc: "Store vaccination dates, batch numbers, deworming, weight history, and food or flea allergies in one pocket health booklet with automatic booster reminders and a nearby emergency veterinarian locator.",
+        feature3Title: "Dog Feeding Schedule, Meal Portions & Water Tracker",
+        feature3Desc: "Log kibble, wet food, and treats with exact gram portions, brands, calories, and custom meal reminders. Monitor daily fresh water hydration (ml) against your dog's goal and find nearby pet stores.",
+        feature4Title: "Shared Family Care Circle & Pet Sitter Instructions",
+        feature4Desc: "Sync your entire household in real time. Invite family members, partners, or weekend dog sitters via @handle with granular Co-Guardian, Dog Sitter, or Observer permissions across multiple dogs—even offline."
+      },
+      faq: {
+        q2: "How does the shared family Care Circle work for partners and dog sitters—and is it suitable for all breeds?",
+        a2: "Trotkin adapts to every puppy and adult dog breed while syncing your whole household in real time. Invite family members or pet sitters via @handle and assign Co-Guardian, Dog Sitter, or Observer roles so everyone knows if the dog was fed, walked, or given fresh water—even offline."
+      },
+      footer: {
+        tagline: "Track puppy potty, walks, meals, water & vaccines together with your family"
+      }
+    },
+    es: {
+      seo: {
+        title: "Trotkin: Cuidado de tu Perro — Paseos, Pipí de Cachorro, Comidas y Cartilla de Vacunas",
+        description: "Trotkin es la app gratuita de cuidado de perros y registro de salud en familia: paseos diarios, control de pipí del cachorro, comidas, agua y cartilla de vacunación en Android."
+      },
+      hero: {
+        title: "Trotkin: App de cuidado de tu perro, rutina de cachorro y cartilla de salud en familia",
+        subtitle: "No vuelvas a preguntar «¿Alguien ya paseó o dio de comer al perro?». Registra paseos diarios, entrenamiento de pipí del cachorro, raciones de comida, agua fresca y vacunas en tiempo real con tu familia y cuidador."
+      },
+      features: {
+        title: "Todo para el cuidado diario de tu perro, educación del cachorro y cartilla veterinaria",
+        subtitle: "Desde el registro de paseos y pipí en un toque hasta el Círculo de Cuidado familiar compartido y recordatorios de vacunas.",
+        potty: "Registro de paseos y control de pipí del cachorro",
+        health: "Cartilla de vacunación digital e historial veterinario",
+        nutrition: "Horario de comidas, raciones y control de agua (ml)",
+        stats: "Círculo de Cuidado familiar compartido y estadísticas"
+      },
+      cta: {
+        feature1Title: "Registro de paseos y control de pipí del cachorro",
+        feature1Desc: "Registra paseos al aire libre, pipí, caca y accidentes en casa en un segundo. Analiza la tasa de éxito y gráficas de progreso de 7 y 30 días.",
+        feature2Title: "Cartilla de vacunación digital e historial veterinario",
+        feature2Desc: "Guarda fechas de vacunas, números de lote, peso, desparasitación y alergias con alertas automáticas de refuerzos y clínicas veterinarias cercanas.",
+        feature3Title: "Horario de comidas, raciones y control de agua (ml)",
+        feature3Desc: "Registra pienso, comida húmeda y premios en gramos con recordatorios de comidas y controla la hidratación diaria de agua fresca.",
+        feature4Title: "Círculo de Cuidado familiar compartido y estadísticas",
+        feature4Desc: "Invita a familiares o cuidadores mediante @handle con roles de Co-Guardián, Cuidador u Observador. Soporte multi-perro y sincronización sin conexión."
+      },
+      faq: {
+        q2: "¿Cómo funciona el Círculo de Cuidado familiar con cuidadores y es apto para todas las razas?",
+        a2: "Trotkin se adapta a todas las razas de cachorros y perros adultos mientras sincroniza a tu familia en tiempo real. Invita a familiares o paseadores vía @handle con permisos de Co-Guardián, Cuidador u Observador, incluso sin conexión."
+      },
+      footer: {
+        tagline: "Registra paseos, pipí, comidas, agua y vacunas de tu perro en familia"
+      }
+    },
+    de: {
+      seo: {
+        title: "Trotkin: Hundepflege & Alltag — Gassi, Stubenreinheit Welpe, Futter & Digitaler Impfpass",
+        description: "Trotkin ist die kostenlose Hundepflege-App für Familien: Gassi-Tracker, Stubenreinheit beim Welpen, Futter- & Wasser-Protokoll sowie digitaler Impfpass für Android."
+      },
+      hero: {
+        title: "Trotkin: Die Hundepflege-App für Gassi, Stubenreinheit & digitalen Impfpass in der Familie",
+        subtitle: "Nie wieder fragen: „Hat schon jemand den Hund gefüttert oder ausgeführt?“. Verfolgen Sie Gassi-Runden, Stubenreinheit beim Welpen, Futterportionen, Wasseraufnahme und Impftermine gemeinsam im Familien-Pflegekreis."
+      },
+      features: {
+        title: "Alles für Hundepflege im Alltag, Welpen-Stubenreinheit und den digitalen Impfpass",
+        subtitle: "Vom 1-Tap Gassi- und Stubenreinheit-Tracker bis zum geteilten Familien-Pflegekreis und automatischen Impferinnerungen.",
+        potty: "Stubenreinheit-Tracker für Welpen & Gassi-Protokoll",
+        health: "Digitaler Impfpass & Hundegesundheit",
+        nutrition: "Futterplan, Portionen & Wasser-Tracker (ml)",
+        stats: "Geteilter Familien-Pflegekreis & Hundesitter-Rollen"
+      },
+      cta: {
+        feature1Title: "Stubenreinheit-Tracker für Welpen & Gassi-Protokoll",
+        feature1Desc: "Erfassen Sie Gassi-Runden, Pipi, Kot und Missgeschicke drinnen mit einem Fingertipp. Verfolgen Sie Erfolgsquoten und 7- oder 30-Tage-Trends.",
+        feature2Title: "Digitaler Impfpass & Hundegesundheit",
+        feature2Desc: "Speichern Sie Impfdaten, Chargennummern, Gewichtskurven, Wurmkuren und Allergien inklusive automatischer Booster-Erinnerungen und Tierarztsuche.",
+        feature3Title: "Futterplan, Portionen & Wasser-Tracker (ml)",
+        feature3Desc: "Protokollieren Sie Trockenfutter, Nassfutter und Leckerlis grammgenau mit Fütterungserinnerungen und überwachen Sie die tägliche Trinkmenge (ml).",
+        feature4Title: "Geteilter Familien-Pflegekreis & Hundesitter-Rollen",
+        feature4Desc: "Laden Sie Familienmitglieder oder Hundesitter per @handle ein und vergeben Sie Rollen (Co-Halter, Hundesitter, Beobachter) – auch offline."
+      },
+      faq: {
+        q2: "Wie funktioniert der Familien-Pflegekreis für Partner & Hundesitter – und passt er für alle Rassen?",
+        a2: "Trotkin eignet sich für alle Welpen- und Hunderassen und synchronisiert Ihren Haushalt in Echtzeit. Laden Sie Familie oder Hundesitter per @handle mit individuellen Berechtigungen ein, sodass jeder sofort sieht, ob der Hund gefüttert oder ausgeführt wurde."
+      },
+      footer: {
+        tagline: "Gassi, Stubenreinheit, Futter, Wasser & Impfpass gemeinsam in der Familie"
+      }
+    },
+    it: {
+      seo: {
+        title: "Trotkin: Cura Cane e Vaccini — Passeggiate, Bisogni Cucciolo, Pasti e Libretto Sanitario",
+        description: "Trotkin è l'app gratuita per la cura del cane e libretto vaccini in famiglia: monitora passeggiate, educazione ai bisogni del cucciolo, pasti e idratazione su Android."
+      },
+      hero: {
+        title: "Trotkin: L'app per la cura del cane, bisogni del cucciolo e libretto vaccini in famiglia",
+        subtitle: "Non chiedere mai più «Qualcuno ha già portato fuori o dato da mangiare al cane?». Monitora passeggiate, bisogni del cucciolo, porzioni di cibo, acqua fresca e richiami dei vaccini insieme alla tua famiglia e al dog sitter."
+      },
+      features: {
+        title: "Tutto per la cura quotidiana del cane, i bisogni del cucciolo e il libretto vaccini",
+        subtitle: "Dal registro passeggiate e bisogni in un tocco fino alla Cerchia di Cura familiare condivisa e ai promemoria veterinari.",
+        potty: "Educazione bisogni del cucciolo & registro passeggiate",
+        health: "Libretto vaccini digitale & salute veterinaria",
+        nutrition: "Programma pasti, crocchette & idratazione (ml)",
+        stats: "Cerchia di Cura familiare condivisa & statistiche"
+      },
+      cta: {
+        feature1Title: "Educazione bisogni del cucciolo & registro passeggiate",
+        feature1Desc: "Registra passeggiate, pipì, popò e piccoli incidenti in casa in un tocco. Monitora le statistiche di successo a 7 e 30 giorni.",
+        feature2Title: "Libretto vaccini digitale & salute veterinaria",
+        feature2Desc: "Conserva date dei vaccini, numeri di lotto, peso, sverminazioni e allergie con avvisi automatici per i richiami e veterinari vicini.",
+        feature3Title: "Programma pasti, crocchette & idratazione (ml)",
+        feature3Desc: "Annota crocchette, cibo umido e snack al grammo con promemoria pasti e controlla il consumo giornaliero di acqua fresca (ml).",
+        feature4Title: "Cerchia di Cura familiare condivisa & statistiche",
+        feature4Desc: "Invita familiari o dog sitter tramite @handle con ruoli personalizzati (Co-Custode, Dog Sitter, Osservatore) e sincronizzazione offline."
+      },
+      faq: {
+        q2: "Come funziona la Cerchia di Cura condivisa in famiglia o con il dog sitter ed è adatta a tutte le razze?",
+        a2: "Trotkin si adatta a tutte le razze di cuccioli e cani adulti sincronizzando la famiglia in tempo reale. Invita familiari o dog sitter tramite @handle con permessi dedicati per sapere sempre chi ha nutrito o portato fuori il cane."
+      },
+      footer: {
+        tagline: "Monitora passeggiate, bisogni, pasti, acqua e libretto vaccini in famiglia"
+      }
+    },
+    pt: {
+      seo: {
+        title: "Trotkin: Cuidados com seu Cão — Passeios, Xixi do Filhote, Ração e Carteira de Vacinas",
+        description: "Trotkin é o aplicativo gratuito de cuidados com seu cão e carteira de vacinas em família: registre passeios, treino de xixi do filhote, refeições e água no Android."
+      },
+      hero: {
+        title: "Trotkin: O aplicativo de cuidados com seu cão, rotina do filhote e carteira de vacinas em família",
+        subtitle: "Nunca mais pergunte «Alguém já alimentou ou passeou com o cachorro hoje?». Registre passeios, treino de xixi do filhote, porções de ração, água fresca e vacinas em tempo real com sua família e dog sitter."
+      },
+      features: {
+        title: "Tudo para os cuidados diários com seu cão, treino de xixi do filhote e carteira de vacinação",
+        subtitle: "Do registro de passeios e necessidades em um toque ao Círculo de Cuidado familiar compartilhado e lembretes de vacinas.",
+        potty: "Treino de xixi do filhote & registro de passeios",
+        health: "Carteira de vacinação digital & saúde veterinária",
+        nutrition: "Horário de refeições, porções de ração & hidratação (ml)",
+        stats: "Círculo de Cuidado familiar compartilhado & estatísticas"
+      },
+      cta: {
+        feature1Title: "Treino de xixi do filhote & registro de passeios",
+        feature1Desc: "Registre passeios, xixi, cocô e acidentes dentro de casa em um segundo. Acompanhe gráficos de progresso de 7 e 30 dias.",
+        feature2Title: "Carteira de vacinação digital & saúde veterinária",
+        feature2Desc: "Guarde datas de vacinas, lotes, curva de peso, vermífugos e alergias com alertas automáticos de reforço e clínicas veterinárias próximas.",
+        feature3Title: "Horário de refeições, porções de ração & hidratação (ml)",
+        feature3Desc: "Registre ração seca, úmida e petiscos em gramas com lembretes de refeição e monitore o consumo diário de água fresca (ml).",
+        feature4Title: "Círculo de Cuidado familiar compartilhado & estatísticas",
+        feature4Desc: "Convide familiares ou dog sitters via @handle com funções de Co-Guardião, Dog Sitter ou Observador, com suporte multi-cães e modo offline."
+      },
+      faq: {
+        q2: "Como funciona o Círculo de Cuidado familiar com dog sitters e o app serve para todas as raças?",
+        a2: "O Trotkin adapta-se a todas as raças de filhotes e cães adultos, sincronizando toda a família em tempo real. Convide familiares ou dog sitters via @handle com permissões personalizadas, mesmo sem internet."
+      },
+      footer: {
+        tagline: "Registre passeios, xixi, refeições, água e carteira de vacinas em família"
+      }
+    }
+  };
+
+  Object.keys(seoUpgrades).forEach(function(lang) {
+    if (!translations[lang]) return;
+    const up = seoUpgrades[lang];
+    translations[lang].seo = up.seo;
+    Object.assign(translations[lang].hero, up.hero);
+    Object.assign(translations[lang].features, up.features);
+    Object.assign(translations[lang].cta, up.cta);
+    Object.assign(translations[lang].faq, up.faq);
+    Object.assign(translations[lang].footer, up.footer);
+  });
+})();
+
+
+// Full-Page SEO Keyword Expansion for Stats, Screens, Testimonials, FAQs & CTA across all 6 Locales
+(function() {
+  const fullSeoSections = {
+    fr: {
+      stats: {
+        success: "Réussite propreté chiot",
+        successDesc: "Suivi des besoins pipi/caca dehors & courbes sur 7 et 30 jours",
+        screens: "Outils soin & santé chien",
+        screensDesc: "Balades, rations croquettes, eau (ml), poids & carnet de vaccins",
+        rating: "Cercle de Garde familial",
+        ratingDesc: "Synchronisation temps réel entre famille, proches et dog-sitter",
+        approach: "Gratuit & Hors-ligne",
+        approachDesc: "Application Android gratuite avec synchronisation cloud automatique"
+      },
+      screens: {
+        title: "Application de suivi quotidien du chien : Balades, Besoins, Repas & Vaccins en un clic",
+        subtitle: "Chaque écran est conçu pour enregistrer une promenade, un besoin du chiot, une portion de croquettes ou un rappel vétérinaire d'une seule main, même hors-ligne.",
+        dashboard: "1. Tableau de bord & Cercle de Garde",
+        dashboardDesc: "Suivi quotidien partagé en famille & multi-chiens",
+        quickRecord: "2. Journal Propreté Chiot & Besoins",
+        quickRecordDesc: "Pipi, caca dehors ou accident intérieur en 1 tap",
+        history: "3. Historique Balades, Repas & Eau",
+        historyDesc: "Chronologie complète par gardien & activité",
+        health: "4. Carnet de Vaccination & Poids",
+        healthDesc: "Vaccins, rappels boosters, allergies & vétérinaires"
+      },
+      testimonials: {
+        title: "Pourquoi les familles et propriétaires de chiens choisissent Trotkin",
+        subtitle: "Des avis authentiques sur le suivi de la propreté du chiot, le carnet de vaccination numérique et le partage familial avec dog-sitter."
+      },
+      sections: {
+        faqSubtitle: "FAQ : Application de suivi chien, propreté chiot, carnet de vaccins & Cercle de Garde"
+      },
+      faq: {
+        q1: "Quelle est la meilleure application Android gratuite pour le suivi quotidien d'un chien ou d'un chiot ?",
+        a1: "Trotkin est l'application tout-en-un de suivi chien et carnet de santé compatible avec tous les smartphones Android 8.0+. Elle réunit le journal des balades, l'apprentissage de la propreté du chiot (pipi, caca, accidents), le suivi des repas et de l'eau (ml), ainsi que le carnet de vaccination numérique synchronisé en famille.",
+        q3: "Comment fonctionne le carnet de vaccination numérique chien et mes données sont-elles protégées ?",
+        a3: "Le carnet de santé numérique Trotkin conserve les dates de vaccins, numéros de lot, rappels de boosters automatiques, historique de poids et allergies de chaque chien. Toutes vos données sont chiffrées en transit (HTTPS/TLS 1.3) et au repos (AES-256) conformément au RGPD, sans aucune revente à des courtiers tiers.",
+        q4: "L’application de suivi chien Trotkin est-elle 100% gratuite et utilisable hors-ligne ?",
+        a4: "Oui ! Trotkin est 100% gratuit au téléchargement sur Google Play, sans mur payant bloquant vos journaux quotidiens, et fonctionne hors-ligne en promenade avec synchronisation cloud automatique. La gratuité est soutenue par des bannières adaptatives Google AdMob discrètes, respectueuses du RGPD."
+      },
+      cta: {
+        title: "Téléchargez Trotkin : Suivi Chien, Propreté Chiot & Carnet de Santé",
+        subtitle: "Installez gratuitement Trotkin sur Google Play Store pour suivre les balades, les besoins du chiot, les repas, l'eau fraîche et le carnet de vaccination en famille."
+      }
+    },
+    en: {
+      stats: {
+        success: "Puppy Potty Success",
+        successDesc: "Outdoor pee/poop logging & 7-day / 30-day behavioral charts",
+        screens: "Dog Care & Health Tools",
+        screensDesc: "Walk tracker, meal portions, water (ml), weight & vaccine log",
+        rating: "Shared Family Care Circle",
+        ratingDesc: "Real-time household sync for partners, family & dog sitters",
+        approach: "100% Free & Offline-Ready",
+        approachDesc: "Free Android dog care app with automatic cloud sync"
+      },
+      screens: {
+        title: "Daily Dog Care Tracker App: Log Walks, Puppy Potty, Meals & Vaccines in One Tap",
+        subtitle: "Every screen is crafted for one-handed logging during dog walks—track outdoor potty habits, kibble portions, water hydration, and vet boosters even offline.",
+        dashboard: "1. Dog Care Dashboard & Family Sync",
+        dashboardDesc: "Shared daily dog routine & multi-dog profile switcher",
+        quickRecord: "2. Puppy Potty Training & Pee/Poop Log",
+        quickRecordDesc: "Log outdoor pee, poop, or indoor accidents in 1 tap",
+        history: "3. Dog Walk, Feeding & Water Timeline",
+        historyDesc: "Chronological activity log filtered by caregiver",
+        health: "4. Digital Dog Vaccination & Weight Record",
+        healthDesc: "Vaccine batch numbers, booster alerts, allergies & local vets"
+      },
+      testimonials: {
+        title: "Why Dog Owners, Puppy Parents & Pet Sitters Choose Trotkin",
+        subtitle: "Real stories from families using Trotkin for puppy potty training, digital vaccination records, and shared household dog care."
+      },
+      sections: {
+        faqSubtitle: "FAQ: Dog Care Tracker, Puppy Potty Log, Vaccine Records & Family Sharing"
+      },
+      faq: {
+        q1: "What is the best free Android app to track daily dog care, walks, and puppy potty training?",
+        a1: "Trotkin is the calm, all-in-one dog care tracker and health log built for families on Android 8.0+. It combines a puppy potty training log, daily dog walk tracker, feeding schedule and water intake tracker (ml), digital vaccination booklet, and real-time family Care Circle sync.",
+        q3: "How does the digital dog vaccination record work and is my data private?",
+        a3: "Trotkin's digital vaccination booklet stores vaccine dates, batch numbers, veterinarian names, upcoming booster reminders, weight curves, and allergies in one pocket health record. All personal and canine records are encrypted via HTTPS/TLS 1.3 and AES-256 and never sold to data brokers.",
+        q4: "Is the Trotkin dog care tracker app 100% free and does it work offline?",
+        a4: "Yes! Trotkin is 100% free to download on Google Play with zero paywall friction locking core daily tracking, and works offline on walks with automatic cloud sync once you reconnect. It is supported by gentle, GDPR-compliant Google AdMob adaptive banners."
+      },
+      cta: {
+        title: "Download Trotkin: Free Dog Care Tracker & Family Health Log",
+        subtitle: "Get Trotkin for free on Google Play Store to track puppy potty habits, daily dog walks, meal portions, water intake, and vaccination records together with your family."
+      }
+    },
+    es: {
+      stats: {
+        success: "Éxito en pipí del cachorro",
+        successDesc: "Registro de necesidades fuera y gráficas de 7 y 30 días",
+        screens: "Herramientas salud canina",
+        screensDesc: "Paseos, raciones de comida, agua (ml), peso y vacunas",
+        rating: "Círculo de Cuidado familiar",
+        ratingDesc: "Sincronización en tiempo real entre familia y cuidador",
+        approach: "100% Gratis y Sin Conexión",
+        approachDesc: "App Android gratuita con sincronización automática en la nube"
+      },
+      screens: {
+        title: "App de seguimiento diario para perros: Paseos, Pipí, Comidas y Vacunas en un toque",
+        subtitle: "Diseñada para registrar paseos, pipí del cachorro, raciones de pienso o recordatorios veterinarios con una sola mano, incluso sin conexión.",
+        dashboard: "1. Panel diario y Círculo de Cuidado",
+        dashboardDesc: "Rutina compartida en familia y soporte multi-perro",
+        quickRecord: "2. Registro de Pipí y Cachorro",
+        quickRecordDesc: "Pipí, caca fuera o accidente en casa en 1 toque",
+        history: "3. Historial de Paseos, Comida y Agua",
+        historyDesc: "Cronología completa por cuidador y actividad",
+        health: "4. Cartilla de Vacunación y Peso",
+        healthDesc: "Vacunas, alertas de refuerzo, alergias y veterinarios"
+      },
+      testimonials: {
+        title: "Por qué las familias y dueños de perros eligen Trotkin",
+        subtitle: "Opiniones reales sobre el entrenamiento de pipí del cachorro, la cartilla de vacunación digital y el cuidado compartido."
+      },
+      sections: {
+        faqSubtitle: "FAQ: App de cuidado de perros, pipí de cachorro, vacunas y familia"
+      },
+      cta: {
+        title: "Descarga Trotkin: Cuidado de tu Perro y Cartilla de Salud",
+        subtitle: "Instala Trotkin gratis en Google Play Store para registrar paseos, pipí del cachorro, comidas, agua y vacunas en familia."
+      }
+    },
+    de: {
+      stats: {
+        success: "Stubenreinheit-Erfolg",
+        successDesc: "Pipi/Kot-Protokoll & 7- bzw. 30-Tage-Statistiken",
+        screens: "Hundepflege & Gesundheit",
+        screensDesc: "Gassi-Tracker, Futter, Wasser (ml), Gewicht & Impfpass",
+        rating: "Familien-Pflegekreis",
+        ratingDesc: "Echtzeit-Sync für Familie, Partner und Hundesitter",
+        approach: "100% Kostenlos & Offline",
+        approachDesc: "Kostenlose Android-App mit automatischer Cloud-Synchronisation"
+      },
+      screens: {
+        title: "Hundepflege-App für jeden Tag: Gassi, Stubenreinheit, Futter & Impfpass mit einem Tipp",
+        subtitle: "Entwickelt für die Einhandbedienung beim Gassigehen – protokollieren Sie Welpen-Stubenreinheit, Futterportionen, Wasser und Impftermine auch offline.",
+        dashboard: "1. Tages-Dashboard & Pflegekreis",
+        dashboardDesc: "Geteilte Hunderoutine für Familien & mehrere Hunde",
+        quickRecord: "2. Welpen-Stubenreinheit & Pipi-Log",
+        quickRecordDesc: "Pipi, Kot draußen oder Missgeschick drinnen in 1 Tipp",
+        history: "3. Chronik für Gassi, Futter & Wasser",
+        historyDesc: "Tagesverlauf gefiltert nach Betreuer & Aktivität",
+        health: "4. Digitaler Impfpass & Gewicht",
+        healthDesc: "Impfungen, Booster-Alarme, Allergien & Tierärzte"
+      },
+      testimonials: {
+        title: "Warum Hundehalter, Welpeneltern und Hundesitter Trotkin wählen",
+        subtitle: "Erfahrungen von Familien mit Stubenreinheit-Tracking, digitalem Impfpass und geteilter Hundepflege."
+      },
+      sections: {
+        faqSubtitle: "FAQ: Hundepflege-App, Stubenreinheit, digitaler Impfpass & Familien-Sync"
+      },
+      cta: {
+        title: "Trotkin herunterladen: Hundepflege, Stubenreinheit & Impfpass",
+        subtitle: "Laden Sie Trotkin kostenlos im Google Play Store herunter und verfolgen Sie Gassi, Futter, Wasser und Impfungen gemeinsam in der Familie."
+      }
+    },
+    it: {
+      stats: {
+        success: "Successo bisogni cucciolo",
+        successDesc: "Registro pipì/popò fuori e grafici a 7 e 30 giorni",
+        screens: "Strumenti cura e salute",
+        screensDesc: "Passeggiate, porzioni cibo, acqua (ml), peso e vaccini",
+        rating: "Cerchia di Cura familiare",
+        ratingDesc: "Sincronizzazione in tempo reale con famiglia e dog sitter",
+        approach: "100% Gratis e Offline",
+        approachDesc: "App Android gratuita con sincronizzazione cloud automatica"
+      },
+      screens: {
+        title: "App per la cura quotidiana del cane: Passeggiate, Bisogni, Pasti e Vaccini in un tocco",
+        subtitle: "Progettata per registrare passeggiate, bisogni del cucciolo, porzioni di crocchette e richiami dei vaccini con una mano, anche offline.",
+        dashboard: "1. Dashboard e Cerchia di Cura",
+        dashboardDesc: "Routine condivisa in famiglia e supporto multi-cane",
+        quickRecord: "2. Diario Bisogni Cucciolo",
+        quickRecordDesc: "Pipì, popò fuori o incidente in casa in 1 tocco",
+        history: "3. Cronologia Passeggiate, Pasti e Acqua",
+        historyDesc: "Storico giornaliero filtrato per custode e attività",
+        health: "4. Libretto Vaccini Digitale e Peso",
+        healthDesc: "Vaccinazioni, richiami, allergie e veterinari vicini"
+      },
+      testimonials: {
+        title: "Perché le famiglie e i proprietari di cani scelgono Trotkin",
+        subtitle: "Recensioni sull'educazione ai bisogni del cucciolo, il libretto vaccini digitale e la cura condivisa con dog sitter."
+      },
+      sections: {
+        faqSubtitle: "FAQ: App cura cane, bisogni cucciolo, libretto vaccini e famiglia"
+      },
+      cta: {
+        title: "Scarica Trotkin: Cura Cane, Bisogni Cucciolo e Libretto Vaccini",
+        subtitle: "Installa Trotkin gratis su Google Play Store per monitorare passeggiate, bisogni, pasti, acqua e vaccini in famiglia."
+      }
+    },
+    pt: {
+      stats: {
+        success: "Sucesso no xixi do filhote",
+        successDesc: "Registro de necessidades e gráficos de 7 e 30 dias",
+        screens: "Cuidados e saúde canina",
+        screensDesc: "Passeios, porções de ração, água (ml), peso e vacinas",
+        rating: "Círculo de Cuidado familiar",
+        ratingDesc: "Sincronização em tempo real entre família e dog sitter",
+        approach: "100% Grátis e Offline",
+        approachDesc: "Aplicativo Android gratuito com sincronização na nuvem"
+      },
+      screens: {
+        title: "Aplicativo diário de cuidados com seu cão: Passeios, Xixi, Ração e Vacinas em um toque",
+        subtitle: "Criado para registrar passeios, treino de xixi do filhote, porções de ração e lembretes de vacinas com uma só mão, mesmo sem internet.",
+        dashboard: "1. Painel Diário e Círculo de Cuidado",
+        dashboardDesc: "Rotina compartilhada em família e suporte multi-cães",
+        quickRecord: "2. Diário de Xixi do Filhote",
+        quickRecordDesc: "Xixi, cocô na rua ou acidente em casa em 1 toque",
+        history: "3. Histórico de Passeios, Ração e Água",
+        historyDesc: "Linha do tempo completa por cuidador e atividade",
+        health: "4. Carteira de Vacinação Digital e Peso",
+        healthDesc: "Vacinas, alertas de reforço, alergias e veterinários"
+      },
+      testimonials: {
+        title: "Por que tutores de cães, famílias e dog sitters escolhem o Trotkin",
+        subtitle: "Relatos reais sobre o treino de xixi do filhote, carteira de vacinação digital e rotina compartilhada."
+      },
+      sections: {
+        faqSubtitle: "FAQ: App de cuidados com cães, xixi do filhote, vacinas e família"
+      },
+      cta: {
+        title: "Baixe o Trotkin: Cuidados com seu Cão e Carteira de Vacinas",
+        subtitle: "Instale o Trotkin gratuitamente na Google Play Store para acompanhar passeios, xixi do filhote, refeições, água e vacinas em família."
+      }
+    }
+  };
+
+  Object.keys(fullSeoSections).forEach(function(lang) {
+    if (!translations[lang]) return;
+    const sec = fullSeoSections[lang];
+    if (sec.stats) Object.assign(translations[lang].stats, sec.stats);
+    if (sec.screens) Object.assign(translations[lang].screens, sec.screens);
+    if (sec.testimonials) Object.assign(translations[lang].testimonials, sec.testimonials);
+    if (sec.sections) Object.assign(translations[lang].sections, sec.sections);
+    if (sec.faq) Object.assign(translations[lang].faq, sec.faq);
+    if (sec.cta) Object.assign(translations[lang].cta, sec.cta);
+  });
 })();

@@ -79,7 +79,7 @@ export default function LandingPage(_props: Readonly<LandingPageProps>) {
         <footer className="w-full px-margin md:px-space-xl py-space-lg bg-surface-container-low border-t border-outline-variant/20">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md text-sm text-on-surface-variant">
             <div className="flex items-center gap-space-xs">
-              <img alt="Trotkin logo" className="h-6 w-auto" src={logoUrl} />
+              <img alt="Trotkin logo" className="h-7 w-7 rounded-lg object-cover shadow-sm" src={logoUrl} />
               <span className="font-bold text-on-surface">Trotkin</span>
             </div>
             <p>© 2026 Trotkin. L'application bienveillante de son quotidien.</p>

@@ -32,4 +32,4 @@ export const featuresData = [
   { title: 'Statistiques & valorisation des progrès', description: 'Visualisez les progrès avec des graphiques clairs et encourageants.', icon: '📊', accentColor: 'bg-tertiary-fixed' },
 ] as const;
 
-export const logoUrl = 'https://lh3.googleusercontent.com/aida/AEtjO1UpSI0EwuHUlXNQxq6EsBggKy9LtHEG4Pzxq17vD3lJ8q67oF4-u_OQNOz1Jh79DwPQ6ZLar3oFIqUsmwm4i9mKWBcJ860mXuO-9PKXPtA1o9y0G5PQVCk7V_P1KYJgqENI2G8KFjPZznKPHIsRBAgvpCwHpU_I8JIW9h6A0sYbH8kKhvp9Be4q9Y8zzpMICHlhBk9VsFatBVwm42tPZwtxGVyP2Lf70dHoeIytzi7yM1tY2EyozNfChj4';
+export const logoUrl = '/trotkin-icon.png';

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="trotkinBg" x1="11%" y1="7%" x2="89%" y2="93%">
+      <stop offset="0%" stop-color="#FF8E60"/>
+      <stop offset="48%" stop-color="#F57848"/>
+      <stop offset="100%" stop-color="#D9501C"/>
+    </linearGradient>
+    <radialGradient id="sunBloom" cx="30%" cy="24%" r="58%">
+      <stop offset="0%" stop-color="#FFDBCF" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#FFDBCF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pawCream" x1="50%" y1="22%" x2="50%" y2="78%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF3EC"/>
+    </linearGradient>
+    <filter id="pawElevation" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#8F3008" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed 512x512 Terracotta Boutique Canvas (Google Play Store compliant, no pre-rounded corners) -->
+  <rect width="512" height="512" fill="url(#trotkinBg)"/>
+  <rect width="512" height="512" fill="url(#sunBloom)"/>
+
+  <!-- Subtle concentric ambient boutique rings -->
+  <circle cx="256" cy="256" r="196" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="256" cy="256" r="154" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Central Sculpted Companion Paw with True Even-Odd Heart Cutout -->
+  <g filter="url(#pawElevation)">
+    <path fill="url(#pawCream)" fill-rule="evenodd"
+      d="M256,239.4 C211.0,239.4 177.8,277.3 188.7,321.4 C196.7,351.8 223.8,367.4 256,367.4 C288.2,367.4 315.3,351.8 323.3,321.4 C334.2,277.3 301.0,239.4 256,239.4 Z M256,295.8 C249.8,286.3 234.2,283.5 227.6,294.4 C220.9,305.3 229.9,318.6 256,336.6 C282.1,318.6 291.1,305.3 284.4,294.4 C277.8,283.5 262.2,286.3 256,295.8 Z"/>
+
+    <ellipse cx="168.3" cy="220.4" rx="25.6" ry="38.9" transform="rotate(-25 168.3 220.4)" fill="#FFFAF7"/>
+    <ellipse cx="223.8" cy="173.0" rx="24.6" ry="41.7" transform="rotate(-8 223.8 173.0)" fill="#FFFFFF"/>
+    <ellipse cx="288.2" cy="173.0" rx="24.6" ry="41.7" transform="rotate(8 288.2 173.0)" fill="#FFFFFF"/>
+    <ellipse cx="343.7" cy="220.4" rx="25.6" ry="38.9" transform="rotate(25 343.7 220.4)" fill="#FFFAF7"/>
+
+    <!-- Boutique 4-point vitality sparkle -->
+    <path fill="#FFF8F5"
+      d="M331.9,134.2 Q333.8,147.4 347.0,149.3 Q333.8,151.2 331.9,164.5 Q330.0,151.2 316.7,149.3 Q330.0,147.4 331.9,134.2 Z"/>
+  </g>
+</svg>
